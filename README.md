@@ -18,9 +18,9 @@
 
 ---
 
+* [深入理解Spring两大特性：IoC和AOP](https://blog.csdn.net/dkbnull/article/details/87219562)
 * [第一个Spring Boot程序](https://blog.csdn.net/dkbnull/article/details/81806983)
 * [Spring Boot读取properties配置文件中的数据](https://blog.csdn.net/dkbnull/article/details/81953190)
-
 * [Spring Boot使用AOP实现拦截器](https://blog.csdn.net/dkbnull/article/details/82847647)
 * [Spring Boot自定义log4j日志输出](https://blog.csdn.net/dkbnull/article/details/84558062)
 * [Spring Boot整合MyBatis连接数据库](https://blog.csdn.net/dkbnull/article/details/87278817)
@@ -70,4 +70,3 @@
 
 * [Linux服务器部署Spring Boot服务](https://blog.csdn.net/dkbnull/article/details/113574249)
 * [Centos7虚拟机无法连接网络](https://blog.csdn.net/dkbnull/article/details/129033267)
-
