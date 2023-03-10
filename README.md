@@ -40,13 +40,25 @@
 
 ---
 
-* [01_Spring Cloud整合Spring Boot（服务提供者和服务消费者）](https://blog.csdn.net/dkbnull/article/details/89223691)
-* [02_Spring Cloud 服务注册与发现 Eureka](https://blog.csdn.net/dkbnull/article/details/89268194)
-* [03_Spring Cloud 自定义Eureka Ribbon负载均衡策略](https://blog.csdn.net/dkbnull/article/details/89506462)
-* [04_Spring Cloud Feign的使用和自定义配置](https://blog.csdn.net/dkbnull/article/details/89525792)
-* [05_Spring Cloud 熔断器断路器 Hystrix](https://blog.csdn.net/dkbnull/article/details/89578323)
-* [06_Spring Cloud 路由网关和过滤器 Zuul](https://blog.csdn.net/dkbnull/article/details/89736893)
-* [07_Spring Cloud Config 分布式配置中心](https://blog.csdn.net/dkbnull/article/details/89934484)
-* [08_Spring Cloud 全链路跟踪 Zipkin](https://blog.csdn.net/dkbnull/article/details/93928005)
-* [09_Spring Cloud Zuul整合Swagger2](https://blog.csdn.net/dkbnull/article/details/97042333)
+* [Spring Cloud整合Spring Boot（服务提供者和服务消费者）](https://blog.csdn.net/dkbnull/article/details/89223691)
+* [Spring Cloud 服务注册与发现 Eureka](https://blog.csdn.net/dkbnull/article/details/89268194)
+* [Spring Cloud 自定义Eureka Ribbon负载均衡策略](https://blog.csdn.net/dkbnull/article/details/89506462)
+* [Spring Cloud Feign的使用和自定义配置](https://blog.csdn.net/dkbnull/article/details/89525792)
+* [Spring Cloud 熔断器断路器 Hystrix](https://blog.csdn.net/dkbnull/article/details/89578323)
+* [Spring Cloud 路由网关和过滤器 Zuul](https://blog.csdn.net/dkbnull/article/details/89736893)
+* [Spring Cloud Config 分布式配置中心](https://blog.csdn.net/dkbnull/article/details/89934484)
+* [Spring Cloud 全链路跟踪 Zipkin](https://blog.csdn.net/dkbnull/article/details/93928005)
+* [Spring Cloud Zuul整合Swagger2](https://blog.csdn.net/dkbnull/article/details/97042333)
+
+# Android
+
+**GitHub：[https://github.com/dkbnull/AndroidDemo](https://github.com/dkbnull/AndroidDemo)**
+
+**Gitee：[https://gitee.com/dkbnull/AndroidDemo](https://gitee.com/dkbnull/AndroidDemo)**
+
+---
+
+* [Android中使用okhttp实现程序自动更新](https://blog.csdn.net/dkbnull/article/details/104088585)
+* [Android中动态申请权限](https://blog.csdn.net/dkbnull/article/details/104092233)
+* [Android程序无响应(ANR)日志抓取](https://blog.csdn.net/dkbnull/article/details/105179536)
 
