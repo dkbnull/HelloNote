@@ -62,3 +62,12 @@
 * [Android中动态申请权限](https://blog.csdn.net/dkbnull/article/details/104092233)
 * [Android程序无响应(ANR)日志抓取](https://blog.csdn.net/dkbnull/article/details/105179536)
 
+# Linux
+
+**CSDN：[https://blog.csdn.net/dkbnull/category_10185321.html](https://blog.csdn.net/dkbnull/category_10185321.html)**
+
+---
+
+* [Linux服务器部署Spring Boot服务](https://blog.csdn.net/dkbnull/article/details/113574249)
+* [Centos7虚拟机无法连接网络](https://blog.csdn.net/dkbnull/article/details/129033267)
+
