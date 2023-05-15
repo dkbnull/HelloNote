@@ -78,6 +78,9 @@
 ---
 
 * [Docker 学习笔记](https://blog.csdn.net/dkbnull/article/details/129506197)
+* [Centos7离线安装Docker](https://blog.csdn.net/dkbnull/article/details/130694730)
+* [MySQL 主从复制](https://blog.csdn.net/dkbnull/article/details/130000965)
+* [部署Redis集群](https://blog.csdn.net/dkbnull/article/details/130022026)
 
 # 其他
 
