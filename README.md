@@ -70,6 +70,7 @@
 
 * [Linux服务器部署Spring Boot服务](https://blog.csdn.net/dkbnull/article/details/113574249)
 * [Centos7虚拟机无法连接网络](https://blog.csdn.net/dkbnull/article/details/129033267)
+* [Centos7挂载磁盘](https://blog.csdn.net/dkbnull/article/details/136158539)
 
 # Docker
 
