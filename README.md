@@ -29,6 +29,7 @@
 * [Spring Boot实现文件上传与下载](https://blog.csdn.net/dkbnull/article/details/88858717)
 * [Spring Boot 整合Logback记录日志](https://blog.csdn.net/dkbnull/article/details/95390533)
 * [Spring Boot整合WebSocket实现实时消息推送](https://blog.csdn.net/dkbnull/article/details/125577993)
+* [Spring Boot整合MyBatis Plus连接数据库](https://blog.csdn.net/dkbnull/article/details/136331111)
 
 # Spring Cloud
 
