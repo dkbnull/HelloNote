@@ -30,6 +30,7 @@
 * [Spring Boot 整合Logback记录日志](https://blog.csdn.net/dkbnull/article/details/95390533)
 * [Spring Boot整合WebSocket实现实时消息推送](https://blog.csdn.net/dkbnull/article/details/125577993)
 * [Spring Boot整合MyBatis Plus连接数据库](https://blog.csdn.net/dkbnull/article/details/136331111)
+* [Spring Boot整合Mybatis配置多数据源](https://blog.csdn.net/dkbnull/article/details/136433910)
 
 # Spring Cloud
 
