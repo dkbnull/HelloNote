@@ -63,7 +63,7 @@ mybatis:
 
 该配置方式下，需要操作的两个数据库的Mapper需放置在不同文件夹下，如下图所示：
 
-![1709455284298](12_Spring Boot整合Mybatis配置多数据源.assets/1709455284298.png)
+![1709455284298](12_Spring%20Boot整合MyBatis配置多数据源.assets/1709455284298.png)
 
 # 3 配置master库的源连接
 
@@ -374,35 +374,35 @@ public class UserInfoController {
 
 ### 5.8.1 master select
 
-![1709454296366](12_Spring Boot整合Mybatis配置多数据源.assets/1709454296366.png)
+![1709454296366](12_Spring%20Boot整合MyBatis配置多数据源.assets/1709454296366.png)
 
 ### 5.8.2 master insert
 
-![1709454652439](12_Spring Boot整合Mybatis配置多数据源.assets/1709454652439.png)
+![1709454652439](12_Spring%20Boot整合MyBatis配置多数据源.assets/1709454652439.png)
 
 数据库中插入成功
 
-![1709454673891](12_Spring Boot整合Mybatis配置多数据源.assets/1709454673891.png)
+![1709454673891](12_Spring%20Boot整合MyBatis配置多数据源.assets/1709454673891.png)
 
 ### 5.8.3 master update
 
-![1709454839225](12_Spring Boot整合Mybatis配置多数据源.assets/1709454839225.png)
+![1709454839225](12_Spring%20Boot整合MyBatis配置多数据源.assets/1709454839225.png)
 
 数据库中更新成功
 
-![1709454855988](12_Spring Boot整合Mybatis配置多数据源.assets/1709454855988.png)
+![1709454855988](12_Spring%20Boot整合MyBatis配置多数据源.assets/1709454855988.png)
 
 ### 5.8.4 master delete
 
-![1709454900245](12_Spring Boot整合Mybatis配置多数据源.assets/1709454900245.png)
+![1709454900245](12_Spring%20Boot整合MyBatis配置多数据源.assets/1709454900245.png)
 
 数据库中删除成功
 
-![1709454914507](12_Spring Boot整合Mybatis配置多数据源.assets/1709454914507.png)
+![1709454914507](12_Spring%20Boot整合MyBatis配置多数据源.assets/1709454914507.png)
 
 ### 5.8.5 slave select
 
-![1709455099275](12_Spring Boot整合Mybatis配置多数据源.assets/1709455099275.png)
+![1709455099275](12_Spring%20Boot整合MyBatis配置多数据源.assets/1709455099275.png)
 
 截至这里，Spring Boot已经成功整合MyBatis多数据源，并连接上了数据库，且测试正常。
 
