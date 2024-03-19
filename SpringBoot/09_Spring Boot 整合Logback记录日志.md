@@ -156,7 +156,7 @@ public class GatewayController {
 
 ## 3.2 测试
 
-![1562768991245](09_Spring Boot 整合Logback记录日志.assets/1562768991245.png)
+![1562768991245](09_Spring%20Boot 整合Logback记录日志.assets/1562768991245.png)
 
 
 
