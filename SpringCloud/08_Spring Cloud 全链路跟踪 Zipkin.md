@@ -127,27 +127,27 @@ spring:
 
 PostMan多请求几次
 
-![1561648809931](08_Spring Cloud 全链路跟踪 Zipkin.assets/1561648809931.png)
+![1561648809931](08_Spring%20Cloud%20全链路跟踪%20Zipkin.assets/1561648809931.png)
 
 浏览器访问<http://localhost:8092/zipkin/>，界面如下
 
-![1561649118176](08_Spring Cloud 全链路跟踪 Zipkin.assets/1561649118176.png)
+![1561649118176](08_Spring%20Cloud%20全链路跟踪%20Zipkin.assets/1561649118176.png)
 
 点击**Find Traces**按钮
 
-![1561649394977](08_Spring Cloud 全链路跟踪 Zipkin.assets/1561649394977.png)
+![1561649394977](08_Spring%20Cloud%20全链路跟踪%20Zipkin.assets/1561649394977.png)
 
 点击某个调用链路之后可以看到该链路的调用详情
 
-![1561649808773](08_Spring Cloud 全链路跟踪 Zipkin.assets/1561649808773.png)
+![1561649808773](08_Spring%20Cloud%20全链路跟踪%20Zipkin.assets/1561649808773.png)
 
 点击某个服务可以查看该服务的调用详情
 
-![1561649982832](08_Spring Cloud 全链路跟踪 Zipkin.assets/1561649982832.png)
+![1561649982832](08_Spring%20Cloud%20全链路跟踪%20Zipkin.assets/1561649982832.png)
 
 菜单栏选择Dependencies还可以查看各服务之间的关系
 
-![1561649884300](08_Spring Cloud 全链路跟踪 Zipkin.assets/1561649884300.png)
+![1561649884300](08_Spring%20Cloud%20全链路跟踪%20Zipkin.assets/1561649884300.png)
 
 
 

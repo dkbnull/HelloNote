@@ -12,21 +12,21 @@
 
 ## 1.1 新建Maven工程
 
-![1554996435983](01_Spring Cloud整合Spring Boot(服务提供者和服务消费者).assets\1554996435983.png)
+![1554996435983](01_Spring%20Cloud整合Spring%20Boot(服务提供者和服务消费者).assets/1554996435983.png)
 
 
 
-![1554996586959](01_Spring Cloud整合Spring Boot(服务提供者和服务消费者).assets\1554996586959.png)
+![1554996586959](01_Spring%20Cloud整合Spring%20Boot(服务提供者和服务消费者).assets/1554996586959.png)
 
 
 
-![1554996735182](01_Spring Cloud整合Spring Boot(服务提供者和服务消费者).assets\1554996735182.png)
+![1554996735182](01_Spring%20Cloud整合Spring%20Boot(服务提供者和服务消费者).assets/1554996735182.png)
 
 
 
 ## 1.2 删除src文件夹
 
-![1554996827314](01_Spring Cloud整合Spring Boot(服务提供者和服务消费者).assets\1554996827314.png)
+![1554996827314](01_Spring%20Cloud整合Spring%20Boot(服务提供者和服务消费者).assets/1554996827314.png)
 
 
 
@@ -88,11 +88,11 @@
 
 右键SpringCloudDemo-->New-->Module，选择Maven项目
 
-![1554997459833](01_Spring Cloud整合Spring Boot(服务提供者和服务消费者).assets\1554997459833.png)
+![1554997459833](01_Spring%20Cloud整合Spring%20Boot(服务提供者和服务消费者).assets/1554997459833.png)
 
 
 
-![1554999091615](01_Spring Cloud整合Spring Boot(服务提供者和服务消费者).assets\1554999091615.png)
+![1554999091615](01_Spring%20Cloud整合Spring%20Boot(服务提供者和服务消费者).assets/1554999091615.png)
 
 ## 2.2 引入依赖
 
@@ -177,7 +177,7 @@ public class GatewayController {
 
 Spring Boot 服务目录结构如下
 
-![1554999609402](01_Spring Cloud整合Spring Boot(服务提供者和服务消费者).assets\1554999609402.png)
+![1554999609402](01_Spring%20Cloud整合Spring%20Boot(服务提供者和服务消费者).assets/1554999609402.png)
 
 
 
@@ -187,7 +187,7 @@ Spring Boot 服务目录结构如下
 
 与创建Spring Boot服务提供者类似，新建Spring Boot服务消费者
 
-![1554999771486](01_Spring Cloud整合Spring Boot(服务提供者和服务消费者).assets\1554999771486.png)
+![1554999771486](01_Spring%20Cloud整合Spring%20Boot(服务提供者和服务消费者).assets/1554999771486.png)
 
 ## 3.2 引入依赖
 
@@ -290,7 +290,7 @@ public class GatewayController {
 
 我们先启动服务提供者，再启动服务消费者，然后浏览器访问 http://127.0.0.1:8082/springbootconsumer/gateway ，获取到正确结果。到这，一个简单Spring Cloud 项目的服务提供者和服务消费者就完成了。
 
-![1555000950327](01_Spring Cloud整合Spring Boot(服务提供者和服务消费者).assets\1555000950327.png)
+![1555000950327](01_Spring%20Cloud整合Spring%20Boot(服务提供者和服务消费者).assets/1555000950327.png)
 
 
 

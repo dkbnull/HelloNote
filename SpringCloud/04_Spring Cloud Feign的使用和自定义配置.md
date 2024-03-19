@@ -19,7 +19,7 @@ Feign是一个声明式的伪Http Web服务客户端，它使得写Http客户端
 
 ## 2.1 新建Feign服务消费者
 
-![1556166874226](04_Spring Cloud Feign的使用和自定义配置.assets/1556166874226.png)
+![1556166874226](04_Spring%20Cloud%20Feign的使用和自定义配置.assets/1556166874226.png)
 
 ## 2.2 引入依赖
 
@@ -153,9 +153,9 @@ public class GatewayController {
 
 依次启动spring-cloud-eureka，spring-boot-provider，spring-boot-provider-v2，spring-boot-consumer-feign。然后浏览器访问http://127.0.0.1:8084/springbootconsumer/gateway，不断刷新，可以到到返回信息正常，且 *hello world,this is spring-boot-provider* 和 *hello world,this is spring-boot-provider-v2* 交替出现。
 
-![1556169056416](04_Spring Cloud Feign的使用和自定义配置.assets/1556169056416.png)
+![1556169056416](04_Spring%20Cloud%20Feign的使用和自定义配置.assets/1556169056416.png)
 
-![1556169106767](04_Spring Cloud Feign的使用和自定义配置.assets/1556169106767.png)
+![1556169106767](04_Spring%20Cloud%20Feign的使用和自定义配置.assets/1556169106767.png)
 
 ## 2.8 增加传参接口
 
@@ -205,9 +205,9 @@ spring-boot-provider-v2服务GatewayController类增加如下代码
 
 依次启动spring-cloud-eureka，spring-boot-provider，spring-boot-provider-v2，spring-boot-consumer-feign。然后打开Postman，配置如下，不断点击Send按钮，可以看到返回信息正常，且 *hello world,this is spring-boot-provider. name is 测试name* 和 *hello world,this is spring-boot-provider-v2. name is 测试name* 交替出现。
 
-![1556176299911](04_Spring Cloud Feign的使用和自定义配置.assets/1556176299911.png)
+![1556176299911](04_Spring%20Cloud%20Feign的使用和自定义配置.assets/1556176299911.png)
 
-![1556176314309](04_Spring Cloud Feign的使用和自定义配置.assets/1556176314309.png)
+![1556176314309](04_Spring%20Cloud%20Feign的使用和自定义配置.assets/1556176314309.png)
 
 # 3. 自定义Feign配置
 
@@ -332,9 +332,9 @@ spring-boot-provider-v2服务GatewayController类增加如下代码
 
 依次启动spring-cloud-eureka，spring-boot-provider，spring-boot-provider-v2，spring-boot-consumer-feign。然后打开Postman，配置如下，不断点击Send按钮，可以看到返回信息正常，且两组返回信息交替出现。
 
-![1556186701309](04_Spring Cloud Feign的使用和自定义配置.assets/1556186701309.png)
+![1556186701309](04_Spring%20Cloud%20Feign的使用和自定义配置.assets/1556186701309.png)
 
-![1556186666650](04_Spring Cloud Feign的使用和自定义配置.assets/1556186666650.png)
+![1556186666650](04_Spring%20Cloud%20Feign的使用和自定义配置.assets/1556186666650.png)
 
 
 

@@ -115,7 +115,7 @@ public class GatewayController {
 
 依次启动spring-cloud-eureka、spring-boot-provider、spring-boot-provider-v2，浏览器访问http://127.0.0.1:8081/springbootprovider/swagger-ui.html、http://127.0.0.1:8083/springbootprovider/swagger-ui.html
 
-![1563890732798](09_Spring Cloud Zuul整合Swagger2.assets/1563890732798.png)
+![1563890732798](09_Spring%20Cloud%20Zuul整合Swagger2.assets/1563890732798.png)
 
 # 2. 新建Zuul服务
 
@@ -245,7 +245,7 @@ public class GlobalFilter extends ZuulFilter {
 
 依次启动spring-cloud-eureka、spring-boot-provider、spring-boot-provider-v2、spring-cloud-zuul，浏览器访问http://127.0.0.1:8091/springcloudzuul/swagger-ui.html
 
-![1563891037875](09_Spring Cloud Zuul整合Swagger2.assets/1563891037875.png)
+![1563891037875](09_Spring%20Cloud%20Zuul整合Swagger2.assets/1563891037875.png)
 
 
 
