@@ -462,7 +462,7 @@ CREATE TABLE `test`.`user_info` (
 
 生成文件如下
 
-![1708964390170](11_Spring%20Boot整合MyBatis Plus连接数据库.assets/1708964390170.png)
+![1708964390170](11_Spring%20Boot整合MyBatis%20Plus连接数据库.assets/1708964390170.png)
 
 这样，对于大量的数据库表，我们就可以使用Generator来生成基本的代码，然后自己再添加其他所需要的代码即可。
 
