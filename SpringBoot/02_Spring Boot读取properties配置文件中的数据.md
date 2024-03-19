@@ -39,7 +39,7 @@ public class GatewayController {
 
 运行结果如下：
 
-![1562770272947](02_Spring Boot读取properties配置文件中的数据.assets/1562770272947.png)
+![1562770272947](02_Spring%20Boot读取properties配置文件中的数据.assets/1562770272947.png)
 
 这里，如果要把
 
@@ -96,7 +96,7 @@ public class GatewayController {
 
 运行结果如下：
 
-![1562770360073](02_Spring Boot读取properties配置文件中的数据.assets/1562770360073.png)
+![1562770360073](02_Spring%20Boot读取properties配置文件中的数据.assets/1562770360073.png)
 
 注意：如果@Value\${}所包含的键名在application.properties配置文件中不存在的话，会抛出异常：
 
@@ -147,7 +147,7 @@ public class GatewayController {
 
 运行，发现中文乱码：
 
-![1562770426380](02_Spring Boot读取properties配置文件中的数据.assets/1562770426380.png)
+![1562770426380](02_Spring%20Boot读取properties配置文件中的数据.assets/1562770426380.png)
 
 这里，我们在application.properties做如下配置：
 
@@ -161,11 +161,11 @@ spring.messages.encoding=UTF-8
 
 然后修改IntelliJ IDEA，File \--\> Settings \--\> Editor \--\> File Encodings ，将最下方Default encoding for properties files设置为UTF-8，并勾选Transparent native-to-ascii conversion。
 
-![1562770452072](02_Spring Boot读取properties配置文件中的数据.assets/1562770452072.png)
+![1562770452072](02_Spring%20Boot读取properties配置文件中的数据.assets/1562770452072.png)
 
 重新运行结果如下：
 
-![1562770462800](02_Spring Boot读取properties配置文件中的数据.assets/1562770462800.png)
+![1562770462800](02_Spring%20Boot读取properties配置文件中的数据.assets/1562770462800.png)
 
 # 使用@ConfigurationProperties注解读取
 
@@ -260,7 +260,7 @@ public class GatewayController {
 
 运行结果如下：
 
-![1562770566095](02_Spring Boot读取properties配置文件中的数据.assets/1562770566095.png)
+![1562770566095](02_Spring%20Boot读取properties配置文件中的数据.assets/1562770566095.png)
 
 
 
