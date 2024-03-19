@@ -86,6 +86,7 @@
 * [Docker打包离线镜像到本地，上传解压到服务器](https://blog.csdn.net/dkbnull/article/details/136159798)
 * [MySQL 主从复制](https://blog.csdn.net/dkbnull/article/details/130000965)
 * [部署Redis集群](https://blog.csdn.net/dkbnull/article/details/130022026)
+* [IDEA直接打包Docker镜像](https://blog.csdn.net/dkbnull/article/details/136823918)
 
 # 其他
 
