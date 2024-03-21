@@ -32,6 +32,7 @@
 * [Spring Boot整合MyBatis Plus连接数据库](https://blog.csdn.net/dkbnull/article/details/136331111)
 * [Spring Boot整合Mybatis配置多数据源](https://blog.csdn.net/dkbnull/article/details/136433910)
 * [Spring Boot整合MyBatis Plus配置多数据源](https://blog.csdn.net/dkbnull/article/details/136611367)
+* [Spring Boot整合Spring Security](https://blog.csdn.net/dkbnull/article/details/136920791)
 
 # Spring Cloud
 
