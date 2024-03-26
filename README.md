@@ -1,3 +1,7 @@
+**微信公众号：**
+
+![qrcode_for_gh_645cbfc12237_258](README.assets/qrcode_for_gh_645cbfc12237_258.jpg)
+
 # Java
 
 **GitHub：[https://github.com/dkbnull/JavaDemo](https://github.com/dkbnull/JavaDemo)**
