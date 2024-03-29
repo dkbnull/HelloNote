@@ -88,11 +88,11 @@ systemctl status docker
 
 如果需要再离线安装docker compose的话，继续往下
 
-### 安装docker compose
+### 安装docker-compose
 
 下载地址：<https://github.com/docker/compose/releases>
 
-下载需要的版本即可，下载完成后重命名为**docker-compose**，上传到服务器**/usr/local/bin**目录
+下载需要的版本即可，下载完成后重命名为**docker-compose**，上传到服务器 **/usr/local/bin**目录
 
 ![img](Centos7离线安装Docker.assets/3.png)
 
