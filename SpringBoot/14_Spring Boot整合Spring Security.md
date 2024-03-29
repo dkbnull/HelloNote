@@ -572,9 +572,7 @@ public class UserController {
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-    <meta charset="UTF-8">
-    <title>Login Page</title>
+    <title>登录</title>
 
     <style>
         body {
@@ -633,7 +631,7 @@ public class UserController {
         <label for="password">密码</label>
         <input type="password" id="password" name="password"><br><br>
 
-        <input type="checkbox" name="remember-me" title="记住我">记住我<br><br>
+        记住我：<input type="checkbox" name="remember-me" title="记住我"><br><br>
 
         <button type="submit">登 录</button>
     </form>
