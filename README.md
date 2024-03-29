@@ -37,6 +37,7 @@
 * [Spring Boot整合Mybatis配置多数据源](https://blog.csdn.net/dkbnull/article/details/136433910)
 * [Spring Boot整合MyBatis Plus配置多数据源](https://blog.csdn.net/dkbnull/article/details/136611367)
 * [Spring Boot整合Spring Security](https://blog.csdn.net/dkbnull/article/details/136920791)
+* [Spring Boot整合Redis](https://blog.csdn.net/dkbnull/article/details/137062282)
 
 # Spring Cloud
 
