@@ -23,7 +23,7 @@
 
 ## 3.2 i18n下新建配置文件
 
-新建**login.properties**国际化默认配置文件，再新建**login_zh_CH.properties**中文配置文件，此时，系统会自动识别到国际化配置，将文件合并目录并切换到国际化视图。
+新建**login.properties**国际化默认配置文件，再新建**login_zh_CN.properties**中文配置文件，此时，系统会自动识别到国际化配置，将文件合并目录并切换到国际化视图。
 
 ![image-20240327165221039](16_Spring%20Boot%E9%A1%B5%E9%9D%A2%E5%9B%BD%E9%99%85%E5%8C%96.assets/image-20240327165221039.png)
 
