@@ -38,6 +38,16 @@
 
 浏览器访问 **127.0.0.1:5601**
 
+![1713089484020](19_Spring Boot整合Elasticsearch.assets/1713089484020.png)
+
+页面显示为英文，**config\kibana.yml**配置为中文，重启kibana
+
+~~~yml
+i18n.locale: "zh-CN"
+~~~
+
+刷新页面，页面显示为中文
+
 ![image-20240407195940109](19_Spring%20Boot%E6%95%B4%E5%90%88Elasticsearch.assets/image-20240407195940109.png)
 
 ## 1.3 安装elasticsearch-head
