@@ -41,6 +41,7 @@
 * [Spring Boot页面国际化](https://blog.csdn.net/dkbnull/article/details/137202903)
 * [Spring Boot引入外部jar包并打包](https://blog.csdn.net/dkbnull/article/details/137441600)
 * [Spring Boot整合Dubbo+ZooKeeper](https://blog.csdn.net/dkbnull/article/details/137616028)
+* [Spring Boot整合Elasticsearch](https://blog.csdn.net/dkbnull/article/details/137748709)
 
 # Spring Cloud
 
