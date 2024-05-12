@@ -44,6 +44,7 @@
 * [Spring Boot整合Elasticsearch](https://blog.csdn.net/dkbnull/article/details/137748709)
 * [Spring Boot整合RabbitMQ](https://blog.csdn.net/dkbnull/article/details/137995945)
 * [Spring Boot跨域问题解决](https://blog.csdn.net/dkbnull/article/details/138294214)
+* [Spring Boot支持发送邮件](https://blog.csdn.net/dkbnull/article/details/138768207)
 
 # Spring Cloud
 
