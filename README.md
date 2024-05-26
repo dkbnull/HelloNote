@@ -45,6 +45,7 @@
 * [Spring Boot整合RabbitMQ](https://blog.csdn.net/dkbnull/article/details/137995945)
 * [Spring Boot跨域问题解决](https://blog.csdn.net/dkbnull/article/details/138294214)
 * [Spring Boot支持发送邮件](https://blog.csdn.net/dkbnull/article/details/138768207)
+* [Windows&Linux环境下Spring Boot启动和关闭脚本](https://blog.csdn.net/dkbnull/article/details/139223258)
 
 # Spring Cloud
 
