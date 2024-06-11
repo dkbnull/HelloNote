@@ -1,6 +1,6 @@
 **微信公众号：**
 
-![qrcode_for_gh_645cbfc12237_258](README.assets/qrcode_for_gh_645cbfc12237_258.jpg)
+![qrcode_for_gh_645cbfc12237_258](README.assets/WeChat.png)
 
 # Java
 
@@ -102,6 +102,10 @@
 * [IDEA直接打包Docker镜像](https://blog.csdn.net/dkbnull/article/details/136823918)
 * [MySQL主从复制](https://blog.csdn.net/dkbnull/article/details/130000965)
 * [部署Redis集群](https://blog.csdn.net/dkbnull/article/details/130022026)
+
+# Redis
+
+* [Redis 学习笔记](https://blog.csdn.net/dkbnull/article/details/139610450)
 
 # 其他
 
