@@ -6,11 +6,11 @@ gitlab官方文档：[https://docs.gitlab.com/ee/api/index.html](https://docs.gi
 
 登录gitlab，编辑个人资料，设置访问令牌
 
-![img](GitLab统计代码量.assets/1.png)
+![img](01_GitLab统计代码量.assets/1.png)
 
 ## 2、获取当前用户所有可见的项目
 
-![img](GitLab统计代码量.assets/2.png)
+![img](01_GitLab统计代码量.assets/2.png)
 
 接口地址
 
@@ -192,7 +192,7 @@ stats节点下参数就是我们本次提交的代码量，additions为新增行
 
 注：通过API获取gitlab项目、分支、commits时，默认只能查到20条数据，可以增加入参指定每页数量，数量最大为50000
 
-![img](GitLab统计代码量.assets/3.png)
+![img](01_GitLab统计代码量.assets/3.png)
 
 
 

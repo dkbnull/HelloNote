@@ -32,7 +32,7 @@ rm -rf /var/lib/docker-bak
 
 
 
-![image-20240423145312551](Docker%E7%9B%AE%E5%BD%95%E8%BF%81%E7%A7%BB.assets/image-20240423145312551.png)
+![image-20240423145312551](02_Docker%E7%9B%AE%E5%BD%95%E8%BF%81%E7%A7%BB.assets/image-20240423145312551.png)
 
 
 

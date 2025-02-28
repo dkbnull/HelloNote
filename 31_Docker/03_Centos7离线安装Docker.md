@@ -6,7 +6,7 @@
 
 选择自己需要的版本下载，下载完成后上传到服务器
 
-![img](Centos7离线安装Docker.assets/1.png)
+![img](03_Centos7离线安装Docker.assets/1.png)
 
 ### 解压安装包
 
@@ -84,7 +84,7 @@ systemctl status docker
 
 运行成功
 
-![img](Centos7离线安装Docker.assets/2.png)
+![img](03_Centos7离线安装Docker.assets/2.png)
 
 如果需要再离线安装docker compose的话，继续往下
 
@@ -94,7 +94,7 @@ systemctl status docker
 
 下载需要的版本即可，下载完成后重命名为**docker-compose**，上传到服务器 **/usr/local/bin**目录
 
-![img](Centos7离线安装Docker.assets/3.png)
+![img](03_Centos7离线安装Docker.assets/3.png)
 
 ### 添加可执行权限
 
@@ -108,7 +108,7 @@ sudo chmod +x /usr/local/bin/docker-compose
 docker-compose -v
 ~~~
 
-![img](Centos7离线安装Docker.assets/4.png)
+![img](03_Centos7离线安装Docker.assets/4.png)
 
 
 
