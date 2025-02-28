@@ -8,6 +8,8 @@
 
 **Gitee：[https://gitee.com/dkbnull/JavaDemo](https://gitee.com/dkbnull/JavaDemo)**
 
+**微信：[Java 从零单排](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzAxOTkxNTgzMA==&action=getalbum&album_id=3378252620846596099#wechat_redirect)**
+
 ---
 
 * [Java使用JNA方式调用DLL](https://blog.csdn.net/dkbnull/article/details/105037245)
@@ -19,6 +21,8 @@
 **GitHub：[https://github.com/dkbnull/AndroidDemo](https://github.com/dkbnull/AndroidDemo)**
 
 **Gitee：[https://gitee.com/dkbnull/AndroidDemo](https://gitee.com/dkbnull/AndroidDemo)**
+
+**微信：[Android 从零单排](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzAxOTkxNTgzMA==&action=getalbum&album_id=1340131576725864448#wechat_redirect)**
 
 ------
 
@@ -46,7 +50,11 @@
 
 **Gitee：[https://gitee.com/dkbnull/SpringBootDemo](https://gitee.com/dkbnull/SpringBootDemo)**
 
-**CSDN：[https://blog.csdn.net/dkbnull/category_9278145.html](https://blog.csdn.net/dkbnull/category_9278145.html)**
+**CSDN：[Spring Boot 从零单排](https://blog.csdn.net/dkbnull/category_9278145.html)**
+
+**微信：[Spring Boot 从零单排](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzAxOTkxNTgzMA==&action=getalbum&album_id=1340128026885062657#wechat_redirect)**
+
+**知乎：[Spring Boot 从零单排](https://www.zhihu.com/column/c_1104766024125341696)**
 
 ---
 
@@ -83,7 +91,11 @@
 
 **Gitee：[https://gitee.com/dkbnull/SpringCloudDemo](https://gitee.com/dkbnull/SpringCloudDemo)**
 
-**CSDN：[https://blog.csdn.net/dkbnull/category_9287932.html](https://blog.csdn.net/dkbnull/category_9287932.html)**
+**CSDN：[Spring Cloud 从零单排](https://blog.csdn.net/dkbnull/category_9287932.html)**
+
+**微信：[Spring Cloud 从零单排](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzAxOTkxNTgzMA==&action=getalbum&album_id=1340128026885062657#wechat_redirect)**
+
+**知乎：[Spring Cloud 从零单排](https://www.zhihu.com/column/c_1105052885779513344)**
 
 ---
 
@@ -105,13 +117,21 @@
 
 # Redis
 
+**CSDN：[Redis 从零单排](https://blog.csdn.net/dkbnull/category_12698444.html)**
+
+**微信：[Redis 从零单排](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzAxOTkxNTgzMA==&action=getalbum&album_id=3498487879087505417#wechat_redirect)**
+
+**知乎：[Redis 从零单排](https://www.zhihu.com/column/c_1784002341529239552)**
+
 - [Redis学习笔记](https://blog.csdn.net/dkbnull/article/details/139610450)
 
 
 
 # Linux
 
-**CSDN：[https://blog.csdn.net/dkbnull/category_10185321.html](https://blog.csdn.net/dkbnull/category_10185321.html)**
+**CSDN：[Linux 从零单排](https://blog.csdn.net/dkbnull/category_10185321.html)**
+
+**微信：[Linux 从零单排](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzAxOTkxNTgzMA==&action=getalbum&album_id=1722690099068354568#wechat_redirect)**
 
 ---
 
@@ -123,7 +143,11 @@
 
 # Docker
 
-**CSDN：[https://blog.csdn.net/dkbnull/category_12238174.html](https://blog.csdn.net/dkbnull/category_12238174.html)**
+**CSDN：[Docker 从零单排](https://blog.csdn.net/dkbnull/category_12238174.html)**
+
+**微信：[Docker 从零单排](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzAxOTkxNTgzMA==&action=getalbum&album_id=2837396432533061632#wechat_redirect)**
+
+**知乎：[Docker 从零单排](https://www.zhihu.com/column/c_1753191871508422656)**
 
 ---
 
