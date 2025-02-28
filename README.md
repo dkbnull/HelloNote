@@ -12,6 +12,34 @@
 
 * [Java使用JNA方式调用DLL](https://blog.csdn.net/dkbnull/article/details/105037245)
 
+
+
+# Android
+
+**GitHub：[https://github.com/dkbnull/AndroidDemo](https://github.com/dkbnull/AndroidDemo)**
+
+**Gitee：[https://gitee.com/dkbnull/AndroidDemo](https://gitee.com/dkbnull/AndroidDemo)**
+
+------
+
+- [Android中使用okhttp实现程序自动更新](https://blog.csdn.net/dkbnull/article/details/104088585)
+- [Android中动态申请权限](https://blog.csdn.net/dkbnull/article/details/104092233)
+- [Android程序无响应(ANR)日志抓取](https://blog.csdn.net/dkbnull/article/details/105179536)
+
+
+
+# Vue
+
+
+
+# Python
+
+
+
+# Dart
+
+
+
 # Spring Boot
 
 **GitHub：[https://github.com/dkbnull/SpringBootDemo](https://github.com/dkbnull/SpringBootDemo)**
@@ -47,6 +75,8 @@
 * [Spring Boot支持发送邮件](https://blog.csdn.net/dkbnull/article/details/138768207)
 * [Windows&Linux环境下Spring Boot启动和关闭脚本](https://blog.csdn.net/dkbnull/article/details/139223258)
 
+
+
 # Spring Cloud
 
 **GitHub：[https://github.com/dkbnull/SpringCloudDemo](https://github.com/dkbnull/SpringCloudDemo)**
@@ -67,17 +97,17 @@
 * [Spring Cloud 全链路跟踪 Zipkin](https://blog.csdn.net/dkbnull/article/details/93928005)
 * [Spring Cloud Zuul整合Swagger2](https://blog.csdn.net/dkbnull/article/details/97042333)
 
-# Android
 
-**GitHub：[https://github.com/dkbnull/AndroidDemo](https://github.com/dkbnull/AndroidDemo)**
 
-**Gitee：[https://gitee.com/dkbnull/AndroidDemo](https://gitee.com/dkbnull/AndroidDemo)**
+# Database
 
----
 
-* [Android中使用okhttp实现程序自动更新](https://blog.csdn.net/dkbnull/article/details/104088585)
-* [Android中动态申请权限](https://blog.csdn.net/dkbnull/article/details/104092233)
-* [Android程序无响应(ANR)日志抓取](https://blog.csdn.net/dkbnull/article/details/105179536)
+
+# Redis
+
+- [Redis学习笔记](https://blog.csdn.net/dkbnull/article/details/139610450)
+
+
 
 # Linux
 
@@ -89,13 +119,15 @@
 * [Centos7虚拟机无法连接网络](https://blog.csdn.net/dkbnull/article/details/129033267)
 * [Centos7挂载磁盘](https://blog.csdn.net/dkbnull/article/details/136158539)
 
+
+
 # Docker
 
 **CSDN：[https://blog.csdn.net/dkbnull/category_12238174.html](https://blog.csdn.net/dkbnull/category_12238174.html)**
 
 ---
 
-* [Docker 学习笔记](https://blog.csdn.net/dkbnull/article/details/129506197)
+* [Docker学习笔记](https://blog.csdn.net/dkbnull/article/details/129506197)
 * [Docker目录迁移](https://blog.csdn.net/dkbnull/article/details/138476127)
 * [Centos7离线安装Docker](https://blog.csdn.net/dkbnull/article/details/130694730)
 * [Docker打包离线镜像到本地，上传解压到服务器](https://blog.csdn.net/dkbnull/article/details/136159798)
@@ -103,9 +135,7 @@
 * [MySQL主从复制](https://blog.csdn.net/dkbnull/article/details/130000965)
 * [部署Redis集群](https://blog.csdn.net/dkbnull/article/details/130022026)
 
-# Redis
 
-* [Redis 学习笔记](https://blog.csdn.net/dkbnull/article/details/139610450)
 
 # 其他
 
