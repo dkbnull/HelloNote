@@ -58,10 +58,11 @@ public class HiBankJnaExecutor {
 
 ---
 
-GitHub：[https://github.com/dkbnull/JavaDemo](https://github.com/dkbnull/JavaDemo)
+GitHub：[https://github.com/dkbnull/java-demo](https://github.com/dkbnull/java-demo)
 
-Gitee：[https://gitee.com/dkbnull/JavaDemo](https://gitee.com/dkbnull/JavaDemo)
+Gitee：[https://gitee.com/dkbnull/java-demo](https://gitee.com/dkbnull/java-demo)
 
 CSDN：[https://blog.csdn.net/dkbnull/article/details/105037245](https://blog.csdn.net/dkbnull/article/details/105037245)
 
 ---
+
