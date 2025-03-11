@@ -40,19 +40,19 @@ Spring Boot实现了自动配置，降低了项目搭建复杂度，包含一整
 
 以IntelliJ IDEA为例。**Create New Project**，选择**Spring Initializr**，Next。
 
-![1656685237180](01_第一个Spring%20Boot程序.assets/1656685237180.png)
+![1656685237180](./assets/01_第一个Spring%20Boot程序.assets/1656685237180.png)
 
 **填写项目信息**
 
-![1656685278177](01_第一个Spring%20Boot程序.assets/1656685278177.png)
+![1656685278177](./assets/01_第一个Spring%20Boot程序.assets/1656685278177.png)
 
 **选择项目使用到的技术**，这里Spring Boot版本建议选择最新的稳定版，然后下面找到**Web**勾选上即可。
 
-![1656685305608](01_第一个Spring%20Boot程序.assets/1656685305608.png)
+![1656685305608](./assets/01_第一个Spring%20Boot程序.assets/1656685305608.png)
 
 最后一步，填写**项目名和路径**，Finish。
 
-![1656685323789](01_第一个Spring%20Boot程序.assets/1656685323789.png)
+![1656685323789](./assets/01_第一个Spring%20Boot程序.assets/1656685323789.png)
 
 第一次创建Spring Boot项目时，系统会下载一些需要的依赖等，耗时较长，下载成功后等以后再新建项目时会很快创建好。
 
@@ -62,11 +62,11 @@ Spring Boot实现了自动配置，降低了项目搭建复杂度，包含一整
 
 首先在项目创建完成之后，会自动创建一个类，命名规则是**ProjectName+Application**，比如我们这个项目的SpringBootDemoApplication，这就是**Spring Boot项目的入口类**。我们打开类之后会发现，类中有个**@SpringBootApplication**注解，这是整个Spring Boot的核心注解，作用是**开启Spring Boot的自动配置**。类中还有一个**main方法**，这是**标准的Java应用程序的入口方法**。
 
-![1656685405426](01_第一个Spring%20Boot程序.assets/1656685405426.png)
+![1656685405426](./assets/01_第一个Spring%20Boot程序.assets/1656685405426.png)
 
 我们新建一个类，类结构如图所示。注意，在Spring Boot项目中，只有**入口类（即SpringBootDemoApplication）所在的包及其子包中的类，才会被自动配置**。
 
-![1656685434645](01_第一个Spring%20Boot程序.assets/1656685434645.png)
+![1656685434645](./assets/01_第一个Spring%20Boot程序.assets/1656685434645.png)
 
 新建的类加上**@RestController**注解，使之成为一个Controller，然后在其内提供地址转换方法。
 
@@ -82,11 +82,11 @@ public class GatewayController {
 
 启动项目
 
-![1656685489206](01_第一个Spring%20Boot程序.assets/1656685489206.png)
+![1656685489206](./assets/01_第一个Spring%20Boot程序.assets/1656685489206.png)
 
 启动成功后就可在浏览器中直接访问。
 
-![1656685497265](01_第一个Spring%20Boot程序.assets/1656685497265.png)
+![1656685497265](./assets/01_第一个Spring%20Boot程序.assets/1656685497265.png)
 
 至此，一个简单的Spring Boot项目就创建成功，并且能够成功访问。
 
@@ -148,15 +148,15 @@ server.servlet.context-path=/springbootdemo
 
 重启项目，浏览器访问
 
-![1656685713223](01_第一个Spring%20Boot程序.assets/1656685713223.png)
+![1656685713223](./assets/01_第一个Spring%20Boot程序.assets/1656685713223.png)
 
 
 
 ---
 
-GitHub：[https://github.com/dkbnull/SpringBootDemo](https://github.com/dkbnull/SpringBootDemo)
+GitHub：[https://github.com/dkbnull/spring-boot-demo](https://github.com/dkbnull/spring-boot-demo)
 
-Gitee：[https://gitee.com/dkbnull/SpringBootDemo](https://gitee.com/dkbnull/SpringBootDemo)
+Gitee：[https://gitee.com/dkbnull/spring-boot-demo](https://gitee.com/dkbnull/spring-boot-demo)
 
 CSDN：[https://blog.csdn.net/dkbnull/article/details/81806983](https://blog.csdn.net/dkbnull/article/details/81806983)
 
