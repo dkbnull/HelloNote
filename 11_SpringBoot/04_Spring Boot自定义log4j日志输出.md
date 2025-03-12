@@ -169,9 +169,9 @@ log4j.appender.logDebug.layout.ConversionPattern=[%p][%d{yyyy-MM-dd HH\:mm\:ss,S
 
 ---
 
-GitHub：[https://github.com/dkbnull/SpringBootDemo](https://github.com/dkbnull/SpringBootDemo)
+GitHub：[https://github.com/dkbnull/spring-boot-demo](https://github.com/dkbnull/spring-boot-demo)
 
-Gitee：[https://gitee.com/dkbnull/SpringBootDemo](https://gitee.com/dkbnull/SpringBootDemo)
+Gitee：[https://gitee.com/dkbnull/spring-boot-demo](https://gitee.com/dkbnull/spring-boot-demo)
 
 CSDN：[https://blog.csdn.net/dkbnull/article/details/84558062](https://blog.csdn.net/dkbnull/article/details/84558062)
 
