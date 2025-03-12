@@ -7,7 +7,7 @@
 
 将需要引入的jar放置到项目中
 
-![1712416754161](17_Spring Boot引入外部jar包并打包.assets/1712416754161.png)
+![1712416754161](./assets/17_Spring Boot引入外部jar包并打包.assets/1712416754161.png)
 
 # 2 引入依赖
 
@@ -49,7 +49,7 @@ public class LoginController {
 
 浏览器访问127.0.0.1:8090/login，返回结果如下
 
-![1712414936391](17_Spring Boot引入外部jar包并打包.assets/1712414936391.png)
+![1712414936391](./assets/17_Spring Boot引入外部jar包并打包.assets/1712414936391.png)
 
 测试通过，项目已经成功引入外部jar，并可使用其中的方法。
 
@@ -76,7 +76,7 @@ public class LoginController {
 
 maven打包，使用压缩方式打开jar包，**BOOT-INF\lib**目录下包含systemPath指定的依赖
 
-![1712417020003](17_Spring Boot引入外部jar包并打包.assets/1712417020003.png)
+![1712417020003](./assets/17_Spring Boot引入外部jar包并打包.assets/1712417020003.png)
 
 使用脚本启动服务，启动成功
 
@@ -84,17 +84,21 @@ maven打包，使用压缩方式打开jar包，**BOOT-INF\lib**目录下包含sy
 java -jar spring-boot-jar-1.0.0.jar
 ~~~
 
-![1712417079905](17_Spring Boot引入外部jar包并打包.assets/1712415292572.png)
+![1712417079905](./assets/17_Spring Boot引入外部jar包并打包.assets/1712415292572.png)
 
 浏览器访问127.0.0.1:8090/login，返回结果如下
 
-![1712414936391](17_Spring%20Boot%E5%BC%95%E5%85%A5%E5%A4%96%E9%83%A8jar%E5%8C%85%E5%B9%B6%E6%89%93%E5%8C%85.assets/1712414936391.png)
+![1712414936391](./assets/17_Spring%20Boot%E5%BC%95%E5%85%A5%E5%A4%96%E9%83%A8jar%E5%8C%85%E5%B9%B6%E6%89%93%E5%8C%85.assets/1712414936391.png)
 
 测试通过，项目已经成功打包
 
 
 
 ---
+
+GitHub：[https://github.com/dkbnull/spring-boot-demo](https://github.com/dkbnull/spring-boot-demo)
+
+Gitee：[https://gitee.com/dkbnull/spring-boot-demo](https://gitee.com/dkbnull/spring-boot-demo)
 
 CSDN：[https://blog.csdn.net/dkbnull/article/details/137441600](https://blog.csdn.net/dkbnull/article/details/137441600)
 
