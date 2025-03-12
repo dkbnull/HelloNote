@@ -96,7 +96,7 @@ public class UserController {
 
 启动服务，然后直接本地双击打开**login.html**，点击登录按钮，如下所示，出现跨域问题
 
-![image-20240428171918963](21_Spring%20Boot%E8%B7%A8%E5%9F%9F%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3.assets/image-20240428171918963.png)
+![image-20240428171918963](./assets/21_Spring%20Boot%E8%B7%A8%E5%9F%9F%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3.assets/image-20240428171918963.png)
 
 # 3 解决办法
 
@@ -132,7 +132,7 @@ public class UserController {
 
 启动服务，访问页面，点击登录按钮，接口访问成功
 
-![image-20240428171959021](21_Spring%20Boot%E8%B7%A8%E5%9F%9F%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3.assets/image-20240428171959021.png)
+![image-20240428171959021](./assets/21_Spring%20Boot%E8%B7%A8%E5%9F%9F%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3.assets/image-20240428171959021.png)
 
 ### 3.1.3 优缺点
 
@@ -261,13 +261,17 @@ public class CorsResponseBodyAdvice implements ResponseBodyAdvice {
 
 未设置跨域时：
 
-![image-20240428223807309](21_Spring%20Boot%E8%B7%A8%E5%9F%9F%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3.assets/image-20240428223807309.png)
+![image-20240428223807309](./assets/21_Spring%20Boot%E8%B7%A8%E5%9F%9F%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3.assets/image-20240428223807309.png)
 
 设置跨域后：
 
-![image-20240428223958782](21_Spring%20Boot%E8%B7%A8%E5%9F%9F%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3.assets/image-20240428223958782.png)
+![image-20240428223958782](./assets/21_Spring%20Boot%E8%B7%A8%E5%9F%9F%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3.assets/image-20240428223958782.png)
 
 ---
+
+GitHub：[https://github.com/dkbnull/spring-boot-demo](https://github.com/dkbnull/spring-boot-demo)
+
+Gitee：[https://gitee.com/dkbnull/spring-boot-demo](https://gitee.com/dkbnull/spring-boot-demo)
 
 CSDN：[https://blog.csdn.net/dkbnull/article/details/138294214](https://blog.csdn.net/dkbnull/article/details/138294214)
 
