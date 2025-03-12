@@ -205,15 +205,15 @@ public class MySQLTestController {
 
 ### 3.6.1 select
 
-![1550122180898](05_Spring%20Boot整合MyBatis连接数据库.assets/1550122180898.png)
+![1550122180898](./assets/05_Spring%20Boot整合MyBatis连接数据库.assets/1550122180898.png)
 
 ### 3.6.2 insert
 
-![1550122264965](05_Spring%20Boot整合MyBatis连接数据库.assets/1550122264965.png)
+![1550122264965](./assets/05_Spring%20Boot整合MyBatis连接数据库.assets/1550122264965.png)
 
 Postman接收到输出为1，表示成功，我们去查下数据库
 
-![1550122339684](05_Spring%20Boot整合MyBatis连接数据库.assets/1550122339684.png)
+![1550122339684](./assets/05_Spring%20Boot整合MyBatis连接数据库.assets/1550122339684.png)
 
 数据成功插入。
 
@@ -227,7 +227,7 @@ Postman接收到输出为1，表示成功，我们去查下数据库
 
 我们在resources文件夹下新建mapper文件夹，用于存放MyBatis映射文件
 
-![1550123341165](05_Spring%20Boot整合MyBatis连接数据库.assets/1550123341165.png)
+![1550123341165](./assets/05_Spring%20Boot整合MyBatis连接数据库.assets/1550123341165.png)
 
 application.yml 增加MyBatis配置信息
 
@@ -420,15 +420,15 @@ public class SpringBootDemoApplication {
 
 ### 4.7.1 select
 
-![1550126314723](05_Spring%20Boot整合MyBatis连接数据库.assets/1550126314723.png)
+![1550126314723](./assets/05_Spring%20Boot整合MyBatis连接数据库.assets/1550126314723.png)
 
 ### 4.7.2 insert
 
-![1550126354350](05_Spring%20Boot整合MyBatis连接数据库.assets/1550126354350.png)
+![1550126354350](./assets/05_Spring%20Boot整合MyBatis连接数据库.assets/1550126354350.png)
 
 Postman接收到输出为1，表示成功，我们去查下数据库
 
-![1550126384992](05_Spring%20Boot整合MyBatis连接数据库.assets/1550126384992.png)
+![1550126384992](./assets/05_Spring%20Boot整合MyBatis连接数据库.assets/1550126384992.png)
 
 数据成功插入
 
@@ -535,21 +535,21 @@ CREATE TABLE `test`.`testv2` (
 
 1、Run --> Edit Configurations...
 
-![1550128574186](05_Spring%20Boot整合MyBatis连接数据库.assets/1550128574186.png)
+![1550128574186](./assets/05_Spring%20Boot整合MyBatis连接数据库.assets/1550128574186.png)
 
 2、增加Maven配置
 
-![1550128755686](05_Spring%20Boot整合MyBatis连接数据库.assets/1550128755686.png)
+![1550128755686](./assets/05_Spring%20Boot整合MyBatis连接数据库.assets/1550128755686.png)
 
-3、增加Generator配置 (**mybatis-generator:generate -e**)，OK![1550129086719](05_Spring%20Boot整合MyBatis连接数据库.assets/1550129086719.png)
+3、增加Generator配置 (**mybatis-generator:generate -e**)，OK![1550129086719](./assets/05_Spring%20Boot整合MyBatis连接数据库.assets/1550129086719.png)
 
 4、运行
 
-![1550129217459](05_Spring%20Boot整合MyBatis连接数据库.assets/1550129217459.png)
+![1550129217459](./assets/05_Spring%20Boot整合MyBatis连接数据库.assets/1550129217459.png)
 
 生成代码如下。这里我们运行成功后，同一个表，不要运行多次，否则mapper映射文件中会生成多次的代码。
 
-![1550129334609](05_Spring%20Boot整合MyBatis连接数据库.assets/1550129334609.png)
+![1550129334609](./assets/05_Spring%20Boot整合MyBatis连接数据库.assets/1550129334609.png)
 
 ~~~java
 package cn.wbnull.springbootdemo.model;
@@ -704,11 +704,11 @@ public class MySQLTestV2Controller {
 
 ### 5.5.2 insert
 
-![1550129956644](05_Spring%20Boot整合MyBatis连接数据库.assets/1550129956644.png)
+![1550129956644](./assets/05_Spring%20Boot整合MyBatis连接数据库.assets/1550129956644.png)
 
 Postman接收到输出为1，表示成功，我们去查下数据库
 
-![1550130078420](05_Spring%20Boot整合MyBatis连接数据库.assets/1550130078420.png)
+![1550130078420](./assets/05_Spring%20Boot整合MyBatis连接数据库.assets/1550130078420.png)
 
 数据成功插入
 
@@ -720,9 +720,9 @@ Postman接收到输出为1，表示成功，我们去查下数据库
 
 ---
 
-GitHub：[https://github.com/dkbnull/SpringBootDemo](https://github.com/dkbnull/SpringBootDemo)
+GitHub：[https://github.com/dkbnull/spring-boot-demo](https://github.com/dkbnull/spring-boot-demo)
 
-Gitee：[https://gitee.com/dkbnull/SpringBootDemo](https://gitee.com/dkbnull/SpringBootDemo)
+Gitee：[https://gitee.com/dkbnull/spring-boot-demo](https://gitee.com/dkbnull/spring-boot-demo)
 
 CSDN：[https://blog.csdn.net/dkbnull/article/details/87278817](https://blog.csdn.net/dkbnull/article/details/87278817)
 
