@@ -42,15 +42,15 @@ public class UserController {
 
 启动服务，浏览器访问 127.0.0.1:8090/user/query，页面自动跳转到授权登录页
 
-![image-20240312102512825](14_Spring%20Boot%E6%95%B4%E5%90%88Spring%20Security.assets/image-20240312102512825.png)
+![image-20240312102512825](./assets/14_Spring%20Boot%E6%95%B4%E5%90%88Spring%20Security.assets/image-20240312102512825.png)
 
 默认用户名为user，控制台上会打印默认密码，默认密码每次启动服务都会刷新
 
-![image-20240312102539738](14_Spring%20Boot%E6%95%B4%E5%90%88Spring%20Security.assets/image-20240312102539738.png)
+![image-20240312102539738](./assets/14_Spring%20Boot%E6%95%B4%E5%90%88Spring%20Security.assets/image-20240312102539738.png)
 
 登录成功后，就可以正常访问了
 
-![image-20240312110342303](14_Spring%20Boot%E6%95%B4%E5%90%88Spring%20Security.assets/image-20240312110342303.png)
+![image-20240312110342303](./assets/14_Spring%20Boot%E6%95%B4%E5%90%88Spring%20Security.assets/image-20240312110342303.png)
 
 # 3 自定义密码
 
@@ -239,29 +239,29 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
 **hasRole()**和**hasAuthority()**用法是类似的，只不过hasRole()方法会给自定义的角色名前加上 **ROLE_** 前缀
 
-![image-20240312151453087](14_Spring%20Boot%E6%95%B4%E5%90%88Spring%20Security.assets/image-20240312151453087.png)
+![image-20240312151453087](./assets/14_Spring%20Boot%E6%95%B4%E5%90%88Spring%20Security.assets/image-20240312151453087.png)
 
 因此在自定义用户时，如果使用**authorities()**给用户设置角色时，需要自行添加上**ROLE_**前缀。
 
 **roles()**和**authorities()**设置的角色或权限，最终都存放在**authorities**参数中，且这两个方法会互相覆盖彼此的值。
 
-![image-20240312151117921](14_Spring%20Boot%E6%95%B4%E5%90%88Spring%20Security.assets/image-20240312151117921.png)
+![image-20240312151117921](./assets/14_Spring%20Boot%E6%95%B4%E5%90%88Spring%20Security.assets/image-20240312151117921.png)
 
 ## 4.3 测试
 
 浏览器访问
 
-![image-20240312142551843](14_Spring%20Boot%E6%95%B4%E5%90%88Spring%20Security.assets/image-20240312142551843.png)
+![image-20240312142551843](./assets/14_Spring%20Boot%E6%95%B4%E5%90%88Spring%20Security.assets/image-20240312142551843.png)
 
 依次点击等级1、等级2、等级3，均自动跳转到授权登录页面，登录对应权限的用户后，可成功访问。
 
 其中，登录admin用户，无法访问任何页面，登录admin0，可访问所有页面
 
-![image-20240312142606796](14_Spring%20Boot%E6%95%B4%E5%90%88Spring%20Security.assets/image-20240312142606796.png)
+![image-20240312142606796](./assets/14_Spring%20Boot%E6%95%B4%E5%90%88Spring%20Security.assets/image-20240312142606796.png)
 
 登录权限不匹配的用户，拒绝访问
 
-![image-20240312142620507](14_Spring%20Boot%E6%95%B4%E5%90%88Spring%20Security.assets/image-20240312142620507.png)
+![image-20240312142620507](./assets/14_Spring%20Boot%E6%95%B4%E5%90%88Spring%20Security.assets/image-20240312142620507.png)
 
 ## 4.4 使用UserDetailsService类实现
 
@@ -453,7 +453,7 @@ public class UserController {
 
 测试，权限验证通过后
 
-![image-20240312164345068](14_Spring%20Boot%E6%95%B4%E5%90%88Spring%20Security.assets/image-20240312164345068.png)
+![image-20240312164345068](./assets/14_Spring%20Boot%E6%95%B4%E5%90%88Spring%20Security.assets/image-20240312164345068.png)
 
 ## 5.5 @PreFilter()
 
@@ -475,7 +475,7 @@ public class UserController {
 
 测试，权限验证通过后
 
-![image-20240312165502546](14_Spring%20Boot%E6%95%B4%E5%90%88Spring%20Security.assets/image-20240312165502546.png)
+![image-20240312165502546](./assets/14_Spring%20Boot%E6%95%B4%E5%90%88Spring%20Security.assets/image-20240312165502546.png)
 
 # 6 记住我
 
@@ -506,11 +506,11 @@ public class UserController {
 
 启动服务，访问页面，登录页面增加了记住我选择框
 
-![image-20240312172902261](14_Spring%20Boot%E6%95%B4%E5%90%88Spring%20Security.assets/image-20240312172902261.png)
+![image-20240312172902261](./assets/14_Spring%20Boot%E6%95%B4%E5%90%88Spring%20Security.assets/image-20240312172902261.png)
 
 登录成功后，cookie中已保存用户信息，默认时间为2周
 
-![image-20240312173347736](14_Spring%20Boot%E6%95%B4%E5%90%88Spring%20Security.assets/image-20240312173347736.png)
+![image-20240312173347736](./assets/14_Spring%20Boot%E6%95%B4%E5%90%88Spring%20Security.assets/image-20240312173347736.png)
 
 # 7 注销
 
@@ -687,7 +687,7 @@ public class UserController {
 
 启动服务，访问地址，跳转到自定义登录页
 
-![image-20240312175103857](14_Spring%20Boot%E6%95%B4%E5%90%88Spring%20Security.assets/image-20240312175103857.png)
+![image-20240312175103857](./assets/14_Spring%20Boot%E6%95%B4%E5%90%88Spring%20Security.assets/image-20240312175103857.png)
 
 # 9 自定义403页面
 
@@ -720,13 +720,17 @@ public class UserController {
 
 启动服务，浏览器访问，登录无权限用户后提示
 
-![image-20240313084934255](14_Spring%20Boot%E6%95%B4%E5%90%88Spring%20Security.assets/image-20240313084934255.png)
+![image-20240313084934255](./assets/14_Spring%20Boot%E6%95%B4%E5%90%88Spring%20Security.assets/image-20240313084934255.png)
 
 至此，Spring Boot整合Spring Security实现用户认证和授权基本用法已讲解完毕，且测试通过。
 
 
 
 ---
+
+GitHub：[https://github.com/dkbnull/spring-boot-demo](https://github.com/dkbnull/spring-boot-demo)
+
+Gitee：[https://gitee.com/dkbnull/spring-boot-demo](https://gitee.com/dkbnull/spring-boot-demo)
 
 CSDN：[https://blog.csdn.net/dkbnull/article/details/136920791](https://blog.csdn.net/dkbnull/article/details/136920791)
 
