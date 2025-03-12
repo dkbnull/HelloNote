@@ -15,7 +15,7 @@ Windows下载地址：[https://github.com/rabbitmq/rabbitmq-server/releases/down
 
 因为RabbitMQ依赖Erlang，所以下载完成后先不要安装，先在 [https://www.rabbitmq.com/docs/which-erlang](https://www.rabbitmq.com/docs/which-erlang) 查看所需的Erlang版本，下载对应Erlang安装包
 
-![1713582383419](20_Spring Boot整合RabbitMQ.assets/1713582383419.png)
+![1713582383419](./assets/20_Spring Boot整合RabbitMQ.assets/1713582383419.png)
 
 ## 1.2 安装Erlang
 
@@ -27,7 +27,7 @@ Erlang下载地址：[https://www.erlang.org/downloads](https://www.erlang.org/d
 
 也可在开始菜单中找到**RabbitMQ Server目录**，点击**RabbitMQ Service - start**启动
 
-![image-20240409001640108](20_Spring%20Boot%E6%95%B4%E5%90%88RabbitMQ.assets/image-20240409001640108.png)
+![image-20240409001640108](./assets/20_Spring%20Boot%E6%95%B4%E5%90%88RabbitMQ.assets/image-20240409001640108.png)
 
 ## 1.3 启用RabbitMQ管理界面
 
@@ -41,15 +41,15 @@ Erlang下载地址：[https://www.erlang.org/downloads](https://www.erlang.org/d
 rabbitmq-plugins enable rabbitmq_management
 ~~~
 
-![image-20240409003117931](20_Spring%20Boot%E6%95%B4%E5%90%88RabbitMQ.assets/image-20240409003117931.png)
+![image-20240409003117931](./assets/20_Spring%20Boot%E6%95%B4%E5%90%88RabbitMQ.assets/image-20240409003117931.png)
 
 安装成功，**重启RabbitMQ服务**，浏览器访问 **127.0.0.1:15672**
 
-![image-20240409003203243](20_Spring%20Boot%E6%95%B4%E5%90%88RabbitMQ.assets/image-20240409003203243.png)
+![image-20240409003203243](./assets/20_Spring%20Boot%E6%95%B4%E5%90%88RabbitMQ.assets/image-20240409003203243.png)
 
 默认账号密码都是**guest**，登录成功后界面如下
 
-![1713583866476](20_Spring Boot整合RabbitMQ.assets/1713583866476.png)
+![1713583866476](./assets/20_Spring Boot整合RabbitMQ.assets/1713583866476.png)
 
 # 2 广播模式Fanout
 
@@ -196,7 +196,7 @@ public class RabbitMqProducerApplicationTest {
 
 启动测试类，执行成功，查看RabbitMQ Web页面，成功绑定，且各存在一条消息
 
-![image-20240409010229771](20_Spring%20Boot%E6%95%B4%E5%90%88RabbitMQ.assets/image-20240409010229771.png)
+![image-20240409010229771](./assets/20_Spring%20Boot%E6%95%B4%E5%90%88RabbitMQ.assets/image-20240409010229771.png)
 
 ## 2.2 新建消费者
 
@@ -294,15 +294,15 @@ public class FanoutWechatService {
 
 新建启动类，启动服务，控制台输出如下，消费者成功接收到消息
 
-![image-20240409012037755](20_Spring%20Boot%E6%95%B4%E5%90%88RabbitMQ.assets/image-20240409012037755.png)
+![image-20240409012037755](./assets/20_Spring%20Boot%E6%95%B4%E5%90%88RabbitMQ.assets/image-20240409012037755.png)
 
 RabitMQ中消息为0
 
-![image-20240409012119299](20_Spring%20Boot%E6%95%B4%E5%90%88RabbitMQ.assets/image-20240409012119299.png)
+![image-20240409012119299](./assets/20_Spring%20Boot%E6%95%B4%E5%90%88RabbitMQ.assets/image-20240409012119299.png)
 
 再次执行生产者测试类发送新的消息，消费者成功接收并打印
 
-![image-20240409012240606](20_Spring%20Boot%E6%95%B4%E5%90%88RabbitMQ.assets/image-20240409012240606.png)
+![image-20240409012240606](./assets/20_Spring%20Boot%E6%95%B4%E5%90%88RabbitMQ.assets/image-20240409012240606.png)
 
 # 3 路由模式Direct
 
@@ -443,7 +443,7 @@ public class RabbitMqProducerApplicationTest {
 
 启动消费者服务，执行生产者测试类contextLoadsDirect，消费者成功收到消息并打印
 
-![image-20240409012453141](20_Spring%20Boot%E6%95%B4%E5%90%88RabbitMQ.assets/image-20240409012453141.png)
+![image-20240409012453141](./assets/20_Spring%20Boot%E6%95%B4%E5%90%88RabbitMQ.assets/image-20240409012453141.png)
 
 # 4 主题模式Topic
 
@@ -617,7 +617,7 @@ public class TopicWechatService {
 
 启动消费者服务，执行生产者测试类contextLoadsTopic，消费者成功收到消息并打印
 
-![image-20240409215220699](20_Spring%20Boot%E6%95%B4%E5%90%88RabbitMQ.assets/image-20240409215220699.png)
+![image-20240409215220699](./assets/20_Spring%20Boot%E6%95%B4%E5%90%88RabbitMQ.assets/image-20240409215220699.png)
 
 # 5 设置过期时间
 
@@ -647,7 +647,7 @@ public class TopicWechatService {
 
 启动服务，RabitMQ中队列如下，队列标识为TTL
 
-![image-20240410091249940](20_Spring%20Boot%E6%95%B4%E5%90%88RabbitMQ.assets/image-20240410091249940.png)
+![image-20240410091249940](./assets/20_Spring%20Boot%E6%95%B4%E5%90%88RabbitMQ.assets/image-20240410091249940.png)
 
 # 6 消息确认机制
 
@@ -714,7 +714,7 @@ public class MessageConfirmCallback implements RabbitTemplate.ConfirmCallback {
 
 执行测试类contextLoadsTopicCallback，成功进入回调方法
 
-![image-20240409232214020](20_Spring%20Boot%E6%95%B4%E5%90%88RabbitMQ.assets/image-20240409232214020.png)
+![image-20240409232214020](./assets/20_Spring%20Boot%E6%95%B4%E5%90%88RabbitMQ.assets/image-20240409232214020.png)
 
 # 7 死信队列
 
@@ -767,7 +767,7 @@ DLX也是一个正常的交换机，和一般的交换机没有区别，它能�
 
 启动服务，RabitMQ中队列如下，队列标识为DLX
 
-![image-20240409233808755](20_Spring%20Boot%E6%95%B4%E5%90%88RabbitMQ.assets/image-20240409233808755.png)
+![image-20240409233808755](./assets/20_Spring%20Boot%E6%95%B4%E5%90%88RabbitMQ.assets/image-20240409233808755.png)
 
 ## 7.3 调整生产者服务类
 
@@ -797,11 +797,11 @@ DLX也是一个正常的交换机，和一般的交换机没有区别，它能�
 
 未过期前
 
-![image-20240409234636758](20_Spring%20Boot%E6%95%B4%E5%90%88RabbitMQ.assets/image-20240409234636758.png)
+![image-20240409234636758](./assets/20_Spring%20Boot%E6%95%B4%E5%90%88RabbitMQ.assets/image-20240409234636758.png)
 
 过期后
 
-![image-20240409234916197](20_Spring%20Boot%E6%95%B4%E5%90%88RabbitMQ.assets/image-20240409234916197.png)
+![image-20240409234916197](./assets/20_Spring%20Boot%E6%95%B4%E5%90%88RabbitMQ.assets/image-20240409234916197.png)
 
 ## 7.6 新建死信消费服务
 
@@ -828,17 +828,21 @@ public class TopicDlxService {
 
 再启动消费者服务，成功接收死信队列中消息
 
-![image-20240409235139746](20_Spring%20Boot%E6%95%B4%E5%90%88RabbitMQ.assets/image-20240409235139746.png)
+![image-20240409235139746](./assets/20_Spring%20Boot%E6%95%B4%E5%90%88RabbitMQ.assets/image-20240409235139746.png)
 
 RabbitMQ中消息队列如下
 
-![image-20240409235003359](20_Spring%20Boot%E6%95%B4%E5%90%88RabbitMQ.assets/image-20240409235003359.png)
+![image-20240409235003359](./assets/20_Spring%20Boot%E6%95%B4%E5%90%88RabbitMQ.assets/image-20240409235003359.png)
 
 至此，SpringBoot成功整合RabbitMQ且测试通过，集群、分布式事务等用法敬请等待后续。
 
 
 
 ---
+
+GitHub：[https://github.com/dkbnull/spring-boot-demo](https://github.com/dkbnull/spring-boot-demo)
+
+Gitee：[https://gitee.com/dkbnull/spring-boot-demo](https://gitee.com/dkbnull/spring-boot-demo)
 
 CSDN：[https://blog.csdn.net/dkbnull/article/details/137995945](https://blog.csdn.net/dkbnull/article/details/137995945)
 
