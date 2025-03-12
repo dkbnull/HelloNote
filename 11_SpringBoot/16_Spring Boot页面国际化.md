@@ -7,13 +7,13 @@
 
 确保**File -> Settings... -> Editor -> File Encodings** 配置中编码为**UTF-8**，否则后续会出现乱码
 
-![image-20240327161749978](16_Spring%20Boot%E9%A1%B5%E9%9D%A2%E5%9B%BD%E9%99%85%E5%8C%96.assets/image-20240327161749978.png)
+![image-20240327161749978](./assets/16_Spring%20Boot%E9%A1%B5%E9%9D%A2%E5%9B%BD%E9%99%85%E5%8C%96.assets/image-20240327161749978.png)
 
 # 2 安装插件
 
 安装**Resource Bundle Editor**插件后，Resource Bundle就可以可视化编程了
 
-![image-20240327164847205](16_Spring%20Boot%E9%A1%B5%E9%9D%A2%E5%9B%BD%E9%99%85%E5%8C%96.assets/image-20240327164847205.png)
+![image-20240327164847205](./assets/16_Spring%20Boot%E9%A1%B5%E9%9D%A2%E5%9B%BD%E9%99%85%E5%8C%96.assets/image-20240327164847205.png)
 
 # 3 新建配置文件
 
@@ -25,29 +25,29 @@
 
 新建**login.properties**国际化默认配置文件，再新建**login_zh_CN.properties**中文配置文件，此时，系统会自动识别到国际化配置，将文件合并目录并切换到国际化视图。
 
-![image-20240327165221039](16_Spring%20Boot%E9%A1%B5%E9%9D%A2%E5%9B%BD%E9%99%85%E5%8C%96.assets/image-20240327165221039.png)
+![image-20240327165221039](./assets/16_Spring%20Boot%E9%A1%B5%E9%9D%A2%E5%9B%BD%E9%99%85%E5%8C%96.assets/image-20240327165221039.png)
 
 我们就可以直接在**Resource Bundle ‘login’**文件夹上右键添加其他语言配置文件
 
-![image-20240327165423318](16_Spring%20Boot%E9%A1%B5%E9%9D%A2%E5%9B%BD%E9%99%85%E5%8C%96.assets/image-20240327165423318.png)
+![image-20240327165423318](./assets/16_Spring%20Boot%E9%A1%B5%E9%9D%A2%E5%9B%BD%E9%99%85%E5%8C%96.assets/image-20240327165423318.png)
 
 比如添加英语配置文件
 
-![image-20240327165716358](16_Spring%20Boot%E9%A1%B5%E9%9D%A2%E5%9B%BD%E9%99%85%E5%8C%96.assets/image-20240327165716358.png)
+![image-20240327165716358](./assets/16_Spring%20Boot%E9%A1%B5%E9%9D%A2%E5%9B%BD%E9%99%85%E5%8C%96.assets/image-20240327165716358.png)
 
 ## 3.3 编写配置文件
 
 打开其中一个配置文件，切换到**Resource Bundle**视图，点击**+**，即可添加配置
 
-![image-20240327170956141](16_Spring%20Boot%E9%A1%B5%E9%9D%A2%E5%9B%BD%E9%99%85%E5%8C%96.assets/image-20240327170956141.png)
+![image-20240327170956141](./assets/16_Spring%20Boot%E9%A1%B5%E9%9D%A2%E5%9B%BD%E9%99%85%E5%8C%96.assets/image-20240327170956141.png)
 
 比如添加**login.username**配置，添加完成后，页面上会出现3个录入框，可配置不同语言的值
 
-![image-20240328093332429](16_Spring%20Boot%E9%A1%B5%E9%9D%A2%E5%9B%BD%E9%99%85%E5%8C%96.assets/image-20240328093332429.png)
+![image-20240328093332429](./assets/16_Spring%20Boot%E9%A1%B5%E9%9D%A2%E5%9B%BD%E9%99%85%E5%8C%96.assets/image-20240328093332429.png)
 
 配置完成后，所有配置文件都会自动配置上对应值，比如
 
-![image-20240328193350176](16_Spring%20Boot%E9%A1%B5%E9%9D%A2%E5%9B%BD%E9%99%85%E5%8C%96.assets/image-20240328193350176.png)
+![image-20240328193350176](./assets/16_Spring%20Boot%E9%A1%B5%E9%9D%A2%E5%9B%BD%E9%99%85%E5%8C%96.assets/image-20240328193350176.png)
 
 完整配置如下
 
@@ -179,7 +179,7 @@ public class LoginController {
 
 注意：注入的bean名称必须为**localeResolver**，因为**@ConditionalOnMissingBean**会判断是否已经注入了bean
 
-![image-20240328230733436](16_Spring%20Boot%E9%A1%B5%E9%9D%A2%E5%9B%BD%E9%99%85%E5%8C%96.assets/image-20240328230733436.png)
+![image-20240328230733436](./assets/16_Spring%20Boot%E9%A1%B5%E9%9D%A2%E5%9B%BD%E9%99%85%E5%8C%96.assets/image-20240328230733436.png)
 
 ~~~java
 @Configuration
@@ -223,15 +223,15 @@ public class GlobalLocaleResolver implements LocaleResolver {
 
 启动服务，浏览器访问127.0.0.1:8090/login.html
 
-![image-20240328233943370](16_Spring%20Boot%E9%A1%B5%E9%9D%A2%E5%9B%BD%E9%99%85%E5%8C%96.assets/image-20240328233943370.png)
+![image-20240328233943370](./assets/16_Spring%20Boot%E9%A1%B5%E9%9D%A2%E5%9B%BD%E9%99%85%E5%8C%96.assets/image-20240328233943370.png)
 
 切换英语：
 
-![image-20240328234028927](16_Spring%20Boot%E9%A1%B5%E9%9D%A2%E5%9B%BD%E9%99%85%E5%8C%96.assets/image-20240328234028927.png)
+![image-20240328234028927](./assets/16_Spring%20Boot%E9%A1%B5%E9%9D%A2%E5%9B%BD%E9%99%85%E5%8C%96.assets/image-20240328234028927.png)
 
 切换中文：
 
-![image-20240328234047223](16_Spring%20Boot%E9%A1%B5%E9%9D%A2%E5%9B%BD%E9%99%85%E5%8C%96.assets/image-20240328234047223.png)
+![image-20240328234047223](./assets/16_Spring%20Boot%E9%A1%B5%E9%9D%A2%E5%9B%BD%E9%99%85%E5%8C%96.assets/image-20240328234047223.png)
 
 页面可正常切换中英文，测试通过。
 
@@ -285,7 +285,7 @@ public class UserController {
 
 启动服务，Postman请求，默认中文如下：
 
-![image-20240329000551838](16_Spring%20Boot%E9%A1%B5%E9%9D%A2%E5%9B%BD%E9%99%85%E5%8C%96.assets/image-20240328234231750.png)
+![image-20240329000551838](./assets/16_Spring%20Boot%E9%A1%B5%E9%9D%A2%E5%9B%BD%E9%99%85%E5%8C%96.assets/image-20240328234231750.png)
 
 > 附：HTTP请求头Accept-Language含义
 >
@@ -301,7 +301,7 @@ public class UserController {
 
 英语如下：
 
-![image-20240328234431750](16_Spring%20Boot%E9%A1%B5%E9%9D%A2%E5%9B%BD%E9%99%85%E5%8C%96.assets/image-20240328234431750.png)
+![image-20240328234431750](./assets/16_Spring%20Boot%E9%A1%B5%E9%9D%A2%E5%9B%BD%E9%99%85%E5%8C%96.assets/image-20240328234431750.png)
 
 根据传入的地区信息，返回对应语言的提示信息，测试通过。
 
@@ -311,7 +311,7 @@ public class UserController {
 
 ## 8.1 调整配置文件
 
-![image-20240328234758259](16_Spring%20Boot%E9%A1%B5%E9%9D%A2%E5%9B%BD%E9%99%85%E5%8C%96.assets/image-20240328234758259.png)
+![image-20240328234758259](./assets/16_Spring%20Boot%E9%A1%B5%E9%9D%A2%E5%9B%BD%E9%99%85%E5%8C%96.assets/image-20240328234758259.png)
 
 ## 8.2 调整工具类
 
@@ -378,11 +378,11 @@ public class UserController {
 
 启动服务，Postman请求，中文如下：
 
-![image-20240328234655019](16_Spring%20Boot%E9%A1%B5%E9%9D%A2%E5%9B%BD%E9%99%85%E5%8C%96.assets/image-20240328234855019.png)
+![image-20240328234655019](./assets/16_Spring%20Boot%E9%A1%B5%E9%9D%A2%E5%9B%BD%E9%99%85%E5%8C%96.assets/image-20240328234855019.png)
 
 英语如下：
 
-![image-20240328235138540](16_Spring%20Boot%E9%A1%B5%E9%9D%A2%E5%9B%BD%E9%99%85%E5%8C%96.assets/image-20240328235138540.png)
+![image-20240328235138540](./assets/16_Spring%20Boot%E9%A1%B5%E9%9D%A2%E5%9B%BD%E9%99%85%E5%8C%96.assets/image-20240328235138540.png)
 
 根据传入的地区信息，返回对应语言的提示信息，且正确组装传入的参数，测试通过。
 
@@ -391,6 +391,10 @@ public class UserController {
 
 
 ---
+
+GitHub：[https://github.com/dkbnull/spring-boot-demo](https://github.com/dkbnull/spring-boot-demo)
+
+Gitee：[https://gitee.com/dkbnull/spring-boot-demo](https://gitee.com/dkbnull/spring-boot-demo)
 
 CSDN：[https://blog.csdn.net/dkbnull/article/details/137202903](https://blog.csdn.net/dkbnull/article/details/137202903)
 
