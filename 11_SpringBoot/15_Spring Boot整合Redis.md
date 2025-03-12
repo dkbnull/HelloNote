@@ -58,13 +58,13 @@ public class RedisApplicationTest {
 
 启动测试类，成功保存并取出打印
 
-![image-20240316155118162](15_Spring%20Boot%E6%95%B4%E5%90%88Redis.assets/image-20240316155118162.png)
+![image-20240316155118162](./assets/15_Spring%20Boot%E6%95%B4%E5%90%88Redis.assets/image-20240316155118162.png)
 
 启动Redis客户端，查看数据，保存成功。
 
 这里数据有乱码，是因为默认的序列化方式是JDK序列化，后面我们可以使用Json来序列化解决该问题。
 
-![image-20240316155340961](15_Spring%20Boot%E6%95%B4%E5%90%88Redis.assets/image-20240316155340961.png)
+![image-20240316155340961](./assets/15_Spring%20Boot%E6%95%B4%E5%90%88Redis.assets/image-20240316155340961.png)
 
 # 4 对象序列化
 
@@ -101,7 +101,7 @@ public class UserModel {
 
 启动测试类，程序报错
 
-![image-20240316163153329](15_Spring%20Boot%E6%95%B4%E5%90%88Redis.assets/image-20240316163153329.png)
+![image-20240316163153329](./assets/15_Spring%20Boot%E6%95%B4%E5%90%88Redis.assets/image-20240316163153329.png)
 
 ## 4.4 调整UserModel
 
@@ -120,7 +120,7 @@ public class UserModel implements Serializable {
 
 再次启动测试类，数据成功保存并取出打印
 
-![image-20240316163330261](15_Spring%20Boot%E6%95%B4%E5%90%88Redis.assets/image-20240316163330261.png)
+![image-20240316163330261](./assets/15_Spring%20Boot%E6%95%B4%E5%90%88Redis.assets/image-20240316163330261.png)
 
 这样，我们就能保存字符串和Java对象了。
 
@@ -189,7 +189,7 @@ public class RedisApplicationTest {
 
 Redis客户端中执行**flushdb**清空数据，再次执行刚才的测试类，客户端中查看数据，数据保存成功，且无乱码
 
-![image-20240316165802743](15_Spring%20Boot%E6%95%B4%E5%90%88Redis.assets/image-20240316165802743.png)
+![image-20240316165802743](./assets/15_Spring%20Boot%E6%95%B4%E5%90%88Redis.assets/image-20240316165802743.png)
 
 但是在实际开发中，我们基本是不会使用原生的方法来存取数据的，形如redisTemplate.opsForValue().set()编写代码比较麻烦。
 
@@ -808,13 +808,17 @@ public class RedisApplicationTest {
 
 启动测试类，成功保存并取出打印
 
-![image-20240316163938538](15_Spring%20Boot%E6%95%B4%E5%90%88Redis.assets/image-20240316163938538.png)
+![image-20240316163938538](./assets/15_Spring%20Boot%E6%95%B4%E5%90%88Redis.assets/image-20240316163938538.png)
 
 至此，Spring Boot整合Redis完成且测试通过，可以看到，对于Redis的相关操作还是比较简单的，关键在于理解Redis的思想和每一种数据结构的用法和作用场景。
 
 
 
 ---
+
+GitHub：[https://github.com/dkbnull/spring-boot-demo](https://github.com/dkbnull/spring-boot-demo)
+
+Gitee：[https://gitee.com/dkbnull/spring-boot-demo](https://gitee.com/dkbnull/spring-boot-demo)
 
 CSDN：[https://blog.csdn.net/dkbnull/article/details/137062282](https://blog.csdn.net/dkbnull/article/details/137062282)
 
