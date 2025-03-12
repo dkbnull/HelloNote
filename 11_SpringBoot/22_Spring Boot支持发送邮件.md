@@ -20,11 +20,11 @@
 
 以QQ邮箱为例，点击**【设置】**，进入设置页面，点击**【账号】**标签，开启**【POP3/IMAP/SMTP/Exchange/CardDAV/CalDAV服务】**
 
-![image-20240509105119636](22_Spring%20Boot%E6%94%AF%E6%8C%81%E5%8F%91%E9%80%81%E9%82%AE%E4%BB%B6.assets/image-20240509105119636.png)
+![image-20240509105119636](./assets/22_Spring%20Boot%E6%94%AF%E6%8C%81%E5%8F%91%E9%80%81%E9%82%AE%E4%BB%B6.assets/image-20240509105119636.png)
 
 开启服务后可以得到一个授权码
 
-![image-20240509105228013](22_Spring%20Boot%E6%94%AF%E6%8C%81%E5%8F%91%E9%80%81%E9%82%AE%E4%BB%B6.assets/image-20240509105228013.png)
+![image-20240509105228013](./assets/22_Spring%20Boot%E6%94%AF%E6%8C%81%E5%8F%91%E9%80%81%E9%82%AE%E4%BB%B6.assets/image-20240509105228013.png)
 
 ## 2.2 配置邮箱地址
 
@@ -79,13 +79,13 @@ public class MailApplicationTest {
 
 运行测试类，成功收到邮件，发件人和收件人都是配置的邮箱地址
 
-![image-20240509111520864](22_Spring%20Boot%E6%94%AF%E6%8C%81%E5%8F%91%E9%80%81%E9%82%AE%E4%BB%B6.assets/image-20240509111520864.png)
+![image-20240509111520864](./assets/22_Spring%20Boot%E6%94%AF%E6%8C%81%E5%8F%91%E9%80%81%E9%82%AE%E4%BB%B6.assets/image-20240509111520864.png)
 
 # 4 发送复杂邮件
 
 ## 4.1 新建附件文件
 
-![image-20240509115932355](22_Spring%20Boot%E6%94%AF%E6%8C%81%E5%8F%91%E9%80%81%E9%82%AE%E4%BB%B6.assets/image-20240509115932355.png)
+![image-20240509115932355](./assets/22_Spring%20Boot%E6%94%AF%E6%8C%81%E5%8F%91%E9%80%81%E9%82%AE%E4%BB%B6.assets/image-20240509115932355.png)
 
 ## 4.2 调整测试类
 
@@ -124,19 +124,23 @@ public class MailApplicationTest {
 
 运行测试类，成功收到邮件，正文及附件显示正常
 
-![image-20240509120225378](22_Spring%20Boot%E6%94%AF%E6%8C%81%E5%8F%91%E9%80%81%E9%82%AE%E4%BB%B6.assets/image-20240509120225378.png)
+![image-20240509120225378](./assets/22_Spring%20Boot%E6%94%AF%E6%8C%81%E5%8F%91%E9%80%81%E9%82%AE%E4%BB%B6.assets/image-20240509120225378.png)
 
 附件内容正常
 
-![image-20240509120241274](22_Spring%20Boot%E6%94%AF%E6%8C%81%E5%8F%91%E9%80%81%E9%82%AE%E4%BB%B6.assets/image-20240509120241274.png)
+![image-20240509120241274](./assets/22_Spring%20Boot%E6%94%AF%E6%8C%81%E5%8F%91%E9%80%81%E9%82%AE%E4%BB%B6.assets/image-20240509120241274.png)
 
-![image-20240509120305709](22_Spring%20Boot%E6%94%AF%E6%8C%81%E5%8F%91%E9%80%81%E9%82%AE%E4%BB%B6.assets/image-20240509120305709.png)
+![image-20240509120305709](./assets/22_Spring%20Boot%E6%94%AF%E6%8C%81%E5%8F%91%E9%80%81%E9%82%AE%E4%BB%B6.assets/image-20240509120305709.png)
 
 至此，Spring Boot成功支持发送邮件。
 
 
 
 ---
+
+GitHub：[https://github.com/dkbnull/spring-boot-demo](https://github.com/dkbnull/spring-boot-demo)
+
+Gitee：[https://gitee.com/dkbnull/spring-boot-demo](https://gitee.com/dkbnull/spring-boot-demo)
 
 CSDN：[https://blog.csdn.net/dkbnull/article/details/138768207](https://blog.csdn.net/dkbnull/article/details/138768207)
 
