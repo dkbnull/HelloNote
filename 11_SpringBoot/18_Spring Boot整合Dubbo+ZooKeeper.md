@@ -13,11 +13,11 @@
 
 选择一个版本下载即可
 
-![image-20240322170228461](18_Spring%20Boot%E6%95%B4%E5%90%88Dubbo+ZooKeeper.assets/image-20240322170228461.png)
+![image-20240322170228461](./assets/18_Spring%20Boot%E6%95%B4%E5%90%88Dubbo+ZooKeeper.assets/image-20240322170228461.png)
 
 然后
 
-![image-20240322170239124](18_Spring%20Boot%E6%95%B4%E5%90%88Dubbo+ZooKeeper.assets/image-20240322170239124.png)
+![image-20240322170239124](./assets/18_Spring%20Boot%E6%95%B4%E5%90%88Dubbo+ZooKeeper.assets/image-20240322170239124.png)
 
 ## 1.2 下载完成后解压
 
@@ -25,27 +25,27 @@
 
 在安装根目录下新建**data**文件夹和**log**文件夹
 
-![image-20240322192343778](18_Spring%20Boot%E6%95%B4%E5%90%88Dubbo+ZooKeeper.assets/image-20240322192343778.png)
+![image-20240322192343778](./assets/18_Spring%20Boot%E6%95%B4%E5%90%88Dubbo+ZooKeeper.assets/image-20240322192343778.png)
 
 ## 1.4 修改zoo.cfg
 
 进入**conf**目录，将**zoo_sample.cfg**文件，复制一份，重命名为**zoo.cfg**
 
-![image-20240322172140627](18_Spring%20Boot%E6%95%B4%E5%90%88Dubbo+ZooKeeper.assets/image-20240322172140627.png)
+![image-20240322172140627](./assets/18_Spring%20Boot%E6%95%B4%E5%90%88Dubbo+ZooKeeper.assets/image-20240322172140627.png)
 
 修改**zoo.cfg**配置文件，将 **dataDir=/tmp/zookeeper** 修改成**zookeeper安装目录所在的data**文件夹，再**添加一条数据日志的配置**（根据自己的安装路径修改）
 
-![image-20240322192827866](18_Spring%20Boot%E6%95%B4%E5%90%88Dubbo+ZooKeeper.assets/image-20240322192827866.png)
+![image-20240322192827866](./assets/18_Spring%20Boot%E6%95%B4%E5%90%88Dubbo+ZooKeeper.assets/image-20240322192827866.png)
 
 ## 1.5 启动服务端
 
 进入**bin**目录，双击**zkServer.cmd**，启动服务端程序
 
-![image-20240322193059211](18_Spring%20Boot%E6%95%B4%E5%90%88Dubbo+ZooKeeper.assets/image-20240322193059211.png)
+![image-20240322193059211](./assets/18_Spring%20Boot%E6%95%B4%E5%90%88Dubbo+ZooKeeper.assets/image-20240322193059211.png)
 
 控制台显示**binding to port 0.0.0.0/0.0.0.0:2181**，表示服务端启动成功
 
-![image-20240322193438940](18_Spring%20Boot%E6%95%B4%E5%90%88Dubbo+ZooKeeper.assets/image-20240322193438940.png)
+![image-20240322193438940](./assets/18_Spring%20Boot%E6%95%B4%E5%90%88Dubbo+ZooKeeper.assets/image-20240322193438940.png)
 
 ## 1.6 启动客户端
 
@@ -53,7 +53,7 @@
 
 控制台出现**Welcome to ZooKeeper!**，表示客户端启动成功
 
-![image-20240322193704085](18_Spring%20Boot%E6%95%B4%E5%90%88Dubbo+ZooKeeper.assets/image-20240322193704085.png)
+![image-20240322193704085](./assets/18_Spring%20Boot%E6%95%B4%E5%90%88Dubbo+ZooKeeper.assets/image-20240322193704085.png)
 
 ## 1.7 测试
 
@@ -70,7 +70,7 @@ create -e /test 123
 get /test
 ~~~
 
-![image-20240322175811172](18_Spring%20Boot%E6%95%B4%E5%90%88Dubbo+ZooKeeper.assets/image-20240322175811172.png)
+![image-20240322175811172](./assets/18_Spring%20Boot%E6%95%B4%E5%90%88Dubbo+ZooKeeper.assets/image-20240322175811172.png)
 
 # 2 安装Dubbo-Admin
 
@@ -82,7 +82,7 @@ Dubbo其实是一个jar，能够帮助Java程序连接到ZooKeeper，并利用Zo
 
 下载地址：[https://github.com/apache/dubbo-admin/releases](https://github.com/apache/dubbo-admin/releases)
 
-![image-20240323002450144](18_Spring%20Boot%E6%95%B4%E5%90%88Dubbo+ZooKeeper.assets/image-20240323002450144.png)
+![image-20240323002450144](./assets/18_Spring%20Boot%E6%95%B4%E5%90%88Dubbo+ZooKeeper.assets/image-20240323002450144.png)
 
 ## 2.2 下载完成后解压
 
@@ -136,7 +136,7 @@ mvn clean package -Dmaven.test.skip=true
 
 第一次打包时间会有点久，等到出现**BUILD SUCCESS**，表示打包成功
 
-![image-20240323011020688](18_Spring%20Boot%E6%95%B4%E5%90%88Dubbo+ZooKeeper.assets/image-20240323011020688.png)
+![image-20240323011020688](./assets/18_Spring%20Boot%E6%95%B4%E5%90%88Dubbo+ZooKeeper.assets/image-20240323011020688.png)
 
 ## 2.5 启动dubbo-admin
 
@@ -148,17 +148,17 @@ mvn clean package -Dmaven.test.skip=true
 java -jar dubbo-admin-server-0.6.0.jar
 ~~~
 
-![image-20240323011745572](18_Spring%20Boot%E6%95%B4%E5%90%88Dubbo+ZooKeeper.assets/image-20240323011745572.png)
+![image-20240323011745572](./assets/18_Spring%20Boot%E6%95%B4%E5%90%88Dubbo+ZooKeeper.assets/image-20240323011745572.png)
 
 ## 2.6 测试
 
 浏览器访问**127.0.0.1:38080**
 
-![image-20240323012135572](18_Spring%20Boot%E6%95%B4%E5%90%88Dubbo+ZooKeeper.assets/image-20240323012135572.png)
+![image-20240323012135572](./assets/18_Spring%20Boot%E6%95%B4%E5%90%88Dubbo+ZooKeeper.assets/image-20240323012135572.png)
 
 录入用户名和密码，**application.properties**中默认配置的都是 **root**，登录成功后，进入主页
 
-![image-20240323012338984](18_Spring%20Boot%E6%95%B4%E5%90%88Dubbo+ZooKeeper.assets/image-20240323012338984.png)
+![image-20240323012338984](./assets/18_Spring%20Boot%E6%95%B4%E5%90%88Dubbo+ZooKeeper.assets/image-20240323012338984.png)
 
 # 3 新建服务提供者
 
@@ -263,11 +263,11 @@ public class UserInfoServiceImpl implements UserInfoService {
 
 启动服务，服务启动成功后，可以在Dubbo-Admin中看到注册的服务
 
-![image-20240326092427279](18_Spring%20Boot%E6%95%B4%E5%90%88Dubbo+ZooKeeper.assets/image-20240326092427279.png)
+![image-20240326092427279](./assets/18_Spring%20Boot%E6%95%B4%E5%90%88Dubbo+ZooKeeper.assets/image-20240326092427279.png)
 
 查看详情，可以看到注册的服务的接口等信息
 
-![image-20240326092606441](18_Spring%20Boot%E6%95%B4%E5%90%88Dubbo+ZooKeeper.assets/image-20240326092606441.png)
+![image-20240326092606441](./assets/18_Spring%20Boot%E6%95%B4%E5%90%88Dubbo+ZooKeeper.assets/image-20240326092606441.png)
 
 # 4 新建服务消费者
 
@@ -357,7 +357,7 @@ public class DubboConsumerApplicationTest {
 
 启动测试类，控制台上成功打印
 
-![image-20240326100409989](18_Spring%20Boot%E6%95%B4%E5%90%88Dubbo+ZooKeeper.assets/image-20240326100409989.png)
+![image-20240326100409989](./assets/18_Spring%20Boot%E6%95%B4%E5%90%88Dubbo+ZooKeeper.assets/image-20240326100409989.png)
 
 至此，服务消费者成功从注册中心中获取到了服务提供者提供的服务，并成功调用其接口。
 
@@ -365,13 +365,17 @@ public class DubboConsumerApplicationTest {
 
 我们再直接启动**spring-boot-dubbo-consumer**服务，服务启动成功后，可以在Dubbo-Admin中看到消费者和提供者的服务调用关系
 
-![image-20240326101502825](18_Spring%20Boot%E6%95%B4%E5%90%88Dubbo+ZooKeeper.assets/image-20240326101502825.png)
+![image-20240326101502825](./assets/18_Spring%20Boot%E6%95%B4%E5%90%88Dubbo+ZooKeeper.assets/image-20240326101502825.png)
 
 Spring Boot整合Dubbo+Zookeeper成功，且测试通过
 
 
 
 ---
+
+GitHub：[https://github.com/dkbnull/spring-boot-demo](https://github.com/dkbnull/spring-boot-demo)
+
+Gitee：[https://gitee.com/dkbnull/spring-boot-demo](https://gitee.com/dkbnull/spring-boot-demo)
 
 CSDN：[https://blog.csdn.net/dkbnull/article/details/137616028](https://blog.csdn.net/dkbnull/article/details/137616028)
 
