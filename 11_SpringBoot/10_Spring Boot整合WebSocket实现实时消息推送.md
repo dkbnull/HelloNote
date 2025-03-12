@@ -219,7 +219,7 @@ public class WebSocketService {
 
 浏览器访问http://127.0.0.1:8090/，页面显示如下：
 
-![1656767005766](10_Spring%20Boot整合WebSocket实现实时消息推送.assets/1656767005766.png)
+![1656767005766](./assets/10_Spring%20Boot整合WebSocket实现实时消息推送.assets/1656767005766.png)
 
 后台日志如下：
 
@@ -230,7 +230,7 @@ public class WebSocketService {
 
 当我们浏览器打开第二个页面，第一个页面会显示断开连接
 
-![1656767057262](10_Spring%20Boot整合WebSocket实现实时消息推送.assets/1656767057262.png)
+![1656767057262](./assets/10_Spring%20Boot整合WebSocket实现实时消息推送.assets/1656767057262.png)
 
 后台日志如下：
 
@@ -250,7 +250,7 @@ public class WebSocketService {
 
 前台页面显示正常
 
-![1656767330525](10_Spring%20Boot整合WebSocket实现实时消息推送.assets/1656767330525.png)
+![1656767330525](./assets/10_Spring%20Boot整合WebSocket实现实时消息推送.assets/1656767330525.png)
 
 点击关闭连接，可以正常关闭
 
@@ -472,9 +472,9 @@ public class WebSocketService {
 
 ---
 
-GitHub：[https://github.com/dkbnull/SpringBootDemo](https://github.com/dkbnull/SpringBootDemo)
+GitHub：[https://github.com/dkbnull/spring-boot-demo](https://github.com/dkbnull/spring-boot-demo)
 
-Gitee：[https://gitee.com/dkbnull/SpringBootDemo](https://gitee.com/dkbnull/SpringBootDemo)
+Gitee：[https://gitee.com/dkbnull/spring-boot-demo](https://gitee.com/dkbnull/spring-boot-demo)
 
 CSDN：[https://blog.csdn.net/dkbnull/article/details/125577993](https://blog.csdn.net/dkbnull/article/details/125577993)
 
