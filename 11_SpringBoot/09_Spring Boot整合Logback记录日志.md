@@ -156,15 +156,15 @@ public class GatewayController {
 
 ## 3.2 测试
 
-![1562768991245](09_Spring%20Boot整合Logback记录日志.assets/1562768991245.png)
+![1562768991245](./assets/09_Spring%20Boot整合Logback记录日志.assets/1562768991245.png)
 
 
 
 ---
 
-GitHub：[https://github.com/dkbnull/SpringBootDemo](https://github.com/dkbnull/SpringBootDemo)
+GitHub：[https://github.com/dkbnull/spring-boot-demo](https://github.com/dkbnull/spring-boot-demo)
 
-Gitee：[https://gitee.com/dkbnull/SpringBootDemo](https://gitee.com/dkbnull/SpringBootDemo)
+Gitee：[https://gitee.com/dkbnull/spring-boot-demo](https://gitee.com/dkbnull/spring-boot-demo)
 
 CSDN：[https://blog.csdn.net/dkbnull/article/details/95390533](https://blog.csdn.net/dkbnull/article/details/95390533)
 
