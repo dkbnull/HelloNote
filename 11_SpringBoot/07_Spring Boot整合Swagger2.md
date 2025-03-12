@@ -61,7 +61,7 @@ public class GlobalSwagger2 {
                 //页面标题
                 .title("SpringBootDemo Api")
                 //作者
-                .contact(new Contact("dukunbiao(null)", "https://github.com/dkbnull/SpringBootDemo", ""))
+                .contact(new Contact("null", "https://github.com/dkbnull/spring-boot-demo", ""))
                 //版本号
                 .version("1.0")
                 //描述
@@ -118,19 +118,19 @@ public class LoginController extends BaseController {
 
 浏览器访问 <font color="#FF0000">**ip:port/context-path/swagger-ui.html**</font> 即可进入Api文档页面，博主这里地址为：http://localhost:8090/springbootdemo/swagger-ui.html
 
-![1552207136039](07_Spring%20Boot整合Swagger2.assets/1552207136039.png)
+![1552207136039](./assets/07_Spring%20Boot整合Swagger2.assets/1552207136039.png)
 
 展开某个接口后可以看到具体求参数与返回参数
 
-![1552207885021](07_Spring%20Boot整合Swagger2.assets/1552207885021.png)
+![1552207885021](./assets/07_Spring%20Boot整合Swagger2.assets/1552207885021.png)
 
 点击 **<font color="#FF0000">Try it out</font> ** 按钮可以进行测试，其中红框输入请求参数，输入后点击<font color="#FF0000">**Execute**</font>
 
-![1552208014292](07_Spring%20Boot整合Swagger2.assets/1552208014292.png)
+![1552208014292](./assets/07_Spring%20Boot整合Swagger2.assets/1552208014292.png)
 
 可以看到返回信息
 
-![1552208332065](07_Spring%20Boot整合Swagger2.assets/1552208332065.png)
+![1552208332065](./assets/07_Spring%20Boot整合Swagger2.assets/1552208332065.png)
 
 <br>
 
@@ -164,9 +164,9 @@ public class LoginController extends BaseController {
 
 ---
 
-GitHub：[https://github.com/dkbnull/SpringBootDemo](https://github.com/dkbnull/SpringBootDemo)
+GitHub：[https://github.com/dkbnull/spring-boot-demo](https://github.com/dkbnull/spring-boot-demo)
 
-Gitee：[https://gitee.com/dkbnull/SpringBootDemo](https://gitee.com/dkbnull/SpringBootDemo)
+Gitee：[https://gitee.com/dkbnull/spring-boot-demo](https://gitee.com/dkbnull/spring-boot-demo)
 
 CSDN：[https://blog.csdn.net/dkbnull/article/details/88380987](https://blog.csdn.net/dkbnull/article/details/88380987)
 
