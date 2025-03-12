@@ -270,13 +270,17 @@ public class UserInfoController {
 
 ### 4.6.1 master select
 
-![image-20240304151714947](13_Spring%20Boot%E6%95%B4%E5%90%88MyBatis%20Plus%E9%85%8D%E7%BD%AE%E5%A4%9A%E6%95%B0%E6%8D%AE%E6%BA%90.assets/image-20240304151714947.png)
+![image-20240304151714947](./assets/13_Spring%20Boot%E6%95%B4%E5%90%88MyBatis%20Plus%E9%85%8D%E7%BD%AE%E5%A4%9A%E6%95%B0%E6%8D%AE%E6%BA%90.assets/image-20240304151714947.png)
 
 ### 4.6.2 slave select
 
-![image-20240304155206664](13_Spring%20Boot%E6%95%B4%E5%90%88MyBatis%20Plus%E9%85%8D%E7%BD%AE%E5%A4%9A%E6%95%B0%E6%8D%AE%E6%BA%90.assets/image-20240304155206664.png)
+![image-20240304155206664](./assets/13_Spring%20Boot%E6%95%B4%E5%90%88MyBatis%20Plus%E9%85%8D%E7%BD%AE%E5%A4%9A%E6%95%B0%E6%8D%AE%E6%BA%90.assets/image-20240304155206664.png)
 
 ---
+
+GitHub：[https://github.com/dkbnull/spring-boot-demo](https://github.com/dkbnull/spring-boot-demo)
+
+Gitee：[https://gitee.com/dkbnull/spring-boot-demo](https://gitee.com/dkbnull/spring-boot-demo)
 
 CSDN：[https://blog.csdn.net/dkbnull/article/details/136611367](https://blog.csdn.net/dkbnull/article/details/136611367)
 
