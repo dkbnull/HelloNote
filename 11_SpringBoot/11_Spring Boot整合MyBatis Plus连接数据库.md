@@ -246,35 +246,35 @@ public class MybatisPlusApplication {
 
 ### 3.8.1 select
 
-![image-20240219172312713](11_Spring%20Boot%E6%95%B4%E5%90%88MyBatis%20Plus%E8%BF%9E%E6%8E%A5%E6%95%B0%E6%8D%AE%E5%BA%93.assets/image-20240219172312713.png)
+![image-20240219172312713](./assets/11_Spring%20Boot%E6%95%B4%E5%90%88MyBatis%20Plus%E8%BF%9E%E6%8E%A5%E6%95%B0%E6%8D%AE%E5%BA%93.assets/image-20240219172312713.png)
 
 ### 3.8.2 insert
 
-![image-20240219172351958](11_Spring%20Boot%E6%95%B4%E5%90%88MyBatis%20Plus%E8%BF%9E%E6%8E%A5%E6%95%B0%E6%8D%AE%E5%BA%93.assets/image-20240219172351958.png)
+![image-20240219172351958](./assets/11_Spring%20Boot%E6%95%B4%E5%90%88MyBatis%20Plus%E8%BF%9E%E6%8E%A5%E6%95%B0%E6%8D%AE%E5%BA%93.assets/image-20240219172351958.png)
 
 我们查下数据库，并再用postman请求
 
-![image-20240219172555534](11_Spring%20Boot%E6%95%B4%E5%90%88MyBatis%20Plus%E8%BF%9E%E6%8E%A5%E6%95%B0%E6%8D%AE%E5%BA%93.assets/image-20240219172555534.png)
+![image-20240219172555534](./assets/11_Spring%20Boot%E6%95%B4%E5%90%88MyBatis%20Plus%E8%BF%9E%E6%8E%A5%E6%95%B0%E6%8D%AE%E5%BA%93.assets/image-20240219172555534.png)
 
 
 
-![image-20240219172621594](11_Spring%20Boot%E6%95%B4%E5%90%88MyBatis%20Plus%E8%BF%9E%E6%8E%A5%E6%95%B0%E6%8D%AE%E5%BA%93.assets/image-20240219172621594.png)
+![image-20240219172621594](./assets/11_Spring%20Boot%E6%95%B4%E5%90%88MyBatis%20Plus%E8%BF%9E%E6%8E%A5%E6%95%B0%E6%8D%AE%E5%BA%93.assets/image-20240219172621594.png)
 
 ### 3.8.3 update
 
-![image-20240219172742641](11_Spring%20Boot%E6%95%B4%E5%90%88MyBatis%20Plus%E8%BF%9E%E6%8E%A5%E6%95%B0%E6%8D%AE%E5%BA%93.assets/image-20240219172742641.png)
+![image-20240219172742641](./assets/11_Spring%20Boot%E6%95%B4%E5%90%88MyBatis%20Plus%E8%BF%9E%E6%8E%A5%E6%95%B0%E6%8D%AE%E5%BA%93.assets/image-20240219172742641.png)
 
 数据库中成功更新
 
-![image-20240219172759750](11_Spring%20Boot%E6%95%B4%E5%90%88MyBatis%20Plus%E8%BF%9E%E6%8E%A5%E6%95%B0%E6%8D%AE%E5%BA%93.assets/image-20240219172759750.png)
+![image-20240219172759750](./assets/11_Spring%20Boot%E6%95%B4%E5%90%88MyBatis%20Plus%E8%BF%9E%E6%8E%A5%E6%95%B0%E6%8D%AE%E5%BA%93.assets/image-20240219172759750.png)
 
 ### 3.8.4 delete
 
-![image-20240219172841970](11_Spring%20Boot%E6%95%B4%E5%90%88MyBatis%20Plus%E8%BF%9E%E6%8E%A5%E6%95%B0%E6%8D%AE%E5%BA%93.assets/image-20240219172841970.png)
+![image-20240219172841970](./assets/11_Spring%20Boot%E6%95%B4%E5%90%88MyBatis%20Plus%E8%BF%9E%E6%8E%A5%E6%95%B0%E6%8D%AE%E5%BA%93.assets/image-20240219172841970.png)
 
 数据库中成功删除
 
-![image-20240219172849909](11_Spring%20Boot%E6%95%B4%E5%90%88MyBatis%20Plus%E8%BF%9E%E6%8E%A5%E6%95%B0%E6%8D%AE%E5%BA%93.assets/image-20240219172849909.png)
+![image-20240219172849909](./assets/11_Spring%20Boot%E6%95%B4%E5%90%88MyBatis%20Plus%E8%BF%9E%E6%8E%A5%E6%95%B0%E6%8D%AE%E5%BA%93.assets/image-20240219172849909.png)
 
 截至这里，Spring Boot已经成功整合MyBatis Plus并连接上了数据库，且测试正常。
 
@@ -454,21 +454,25 @@ CREATE TABLE `test`.`user_info` (
 
 运行MybatisPlusGenerator，输入需要生成的表名
 
-![image-20240220100754038](11_Spring%20Boot%E6%95%B4%E5%90%88MyBatis%20Plus%E8%BF%9E%E6%8E%A5%E6%95%B0%E6%8D%AE%E5%BA%93.assets/image-20240220100754038.png)
+![image-20240220100754038](./assets/11_Spring%20Boot%E6%95%B4%E5%90%88MyBatis%20Plus%E8%BF%9E%E6%8E%A5%E6%95%B0%E6%8D%AE%E5%BA%93.assets/image-20240220100754038.png)
 
 文件生成完成
 
-![image-20240220100811704](11_Spring%20Boot%E6%95%B4%E5%90%88MyBatis%20Plus%E8%BF%9E%E6%8E%A5%E6%95%B0%E6%8D%AE%E5%BA%93.assets/image-20240220100811704.png)
+![image-20240220100811704](./assets/11_Spring%20Boot%E6%95%B4%E5%90%88MyBatis%20Plus%E8%BF%9E%E6%8E%A5%E6%95%B0%E6%8D%AE%E5%BA%93.assets/image-20240220100811704.png)
 
 生成文件如下
 
-![1708964390170](11_Spring%20Boot整合MyBatis%20Plus连接数据库.assets/1708964390170.png)
+![1708964390170](./assets/11_Spring%20Boot整合MyBatis%20Plus连接数据库.assets/1708964390170.png)
 
 这样，对于大量的数据库表，我们就可以使用Generator来生成基本的代码，然后自己再添加其他所需要的代码即可。
 
 
 
 ---
+
+GitHub：[https://github.com/dkbnull/spring-boot-demo](https://github.com/dkbnull/spring-boot-demo)
+
+Gitee：[https://gitee.com/dkbnull/spring-boot-demo](https://gitee.com/dkbnull/spring-boot-demo)
 
 CSDN：[https://blog.csdn.net/dkbnull/article/details/136331111](https://blog.csdn.net/dkbnull/article/details/136331111)
 
