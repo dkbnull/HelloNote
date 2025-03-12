@@ -46,9 +46,9 @@
 
 # Spring Boot
 
-**GitHub：[https://github.com/dkbnull/SpringBootDemo](https://github.com/dkbnull/SpringBootDemo)**
+**GitHub：[https://github.com/dkbnull/spring-boot-demo](https://github.com/dkbnull/spring-boot-demo)**
 
-**Gitee：[https://gitee.com/dkbnull/SpringBootDemo](https://gitee.com/dkbnull/SpringBootDemo)**
+**Gitee：[https://gitee.com/dkbnull/spring-boot-demo](https://gitee.com/dkbnull/spring-boot-demo)**
 
 **CSDN：[Spring Boot 从零单排](https://blog.csdn.net/dkbnull/category_9278145.html)**
 
