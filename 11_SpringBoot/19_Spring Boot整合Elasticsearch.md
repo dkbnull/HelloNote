@@ -16,11 +16,11 @@
 
 注意：**解压后路径中不能有空格，示例 D:\Programs\elasticsearch**
 
-![image-20240407195506426](19_Spring%20Boot%E6%95%B4%E5%90%88Elasticsearch.assets/image-20240407195506426.png)
+![image-20240407195506426](./assets/19_Spring%20Boot%E6%95%B4%E5%90%88Elasticsearch.assets/image-20240407195506426.png)
 
 浏览器访问 **127.0.0.1:9200**
 
-![image-20240407195531067](19_Spring%20Boot%E6%95%B4%E5%90%88Elasticsearch.assets/image-20240407195531067.png)
+![image-20240407195531067](./assets/19_Spring%20Boot%E6%95%B4%E5%90%88Elasticsearch.assets/image-20240407195531067.png)
 
 ## 1.2 安装Kibana
 
@@ -34,11 +34,11 @@
 
 注意：**要与es版本一致，解压后路径中不能有空格**
 
-![image-20240407195803180](19_Spring%20Boot%E6%95%B4%E5%90%88Elasticsearch.assets/image-20240407195803180.png)
+![image-20240407195803180](./assets/19_Spring%20Boot%E6%95%B4%E5%90%88Elasticsearch.assets/image-20240407195803180.png)
 
 浏览器访问 **127.0.0.1:5601**
 
-![1713089484020](19_Spring Boot整合Elasticsearch.assets/1713089484020.png)
+![1713089484020](./assets/19_Spring Boot整合Elasticsearch.assets/1713089484020.png)
 
 页面显示为英文，**config\kibana.yml**配置为中文，重启kibana
 
@@ -48,7 +48,7 @@ i18n.locale: "zh-CN"
 
 刷新页面，页面显示为中文
 
-![image-20240407195940109](19_Spring%20Boot%E6%95%B4%E5%90%88Elasticsearch.assets/image-20240407195940109.png)
+![image-20240407195940109](./assets/19_Spring%20Boot%E6%95%B4%E5%90%88Elasticsearch.assets/image-20240407195940109.png)
 
 ## 1.3 安装elasticsearch-head
 
@@ -64,13 +64,13 @@ npm install
 npm run start
 ~~~
 
-![image-20240407200105309](19_Spring%20Boot%E6%95%B4%E5%90%88Elasticsearch.assets/image-20240407200105309.png)
+![image-20240407200105309](./assets/19_Spring%20Boot%E6%95%B4%E5%90%88Elasticsearch.assets/image-20240407200105309.png)
 
 浏览器访问 **127.0.0.1:9100**
 
 因为存在跨域问题，连接es失败
 
-![image-20240407155754577](19_Spring%20Boot%E6%95%B4%E5%90%88Elasticsearch.assets/image-20240407155754577.png)
+![image-20240407155754577](./assets/19_Spring%20Boot%E6%95%B4%E5%90%88Elasticsearch.assets/image-20240407155754577.png)
 
 **==修改elasticsearch配置==**，**elasticsearch\config\elasticsearch.yml**，增加支持跨域
 
@@ -81,7 +81,7 @@ http.cors.allow-origin: "*"
 
 重启elasticsearch、elasticsearch-head，刷新页面，连接成功
 
-![image-20240407200336361](19_Spring%20Boot%E6%95%B4%E5%90%88Elasticsearch.assets/image-20240407200336361.png)
+![image-20240407200336361](./assets/19_Spring%20Boot%E6%95%B4%E5%90%88Elasticsearch.assets/image-20240407200336361.png)
 
 # 2 引入依赖
 
@@ -111,7 +111,7 @@ http.cors.allow-origin: "*"
 
 引入成功后，这里注意检查引入的jar包版本号，尽量保证与elasticsearch版本号一致，否则可能会出现莫名奇怪的问题
 
-![image-20240407140708004](19_Spring%20Boot%E6%95%B4%E5%90%88Elasticsearch.assets/image-20240407140708004.png)
+![image-20240407140708004](./assets/19_Spring%20Boot%E6%95%B4%E5%90%88Elasticsearch.assets/image-20240407140708004.png)
 
 如图所示，程序引入的是7.17.15，但是我们使用的elasticsearch版本是7.17.18，所以这里做下修改
 
@@ -183,11 +183,11 @@ public class ElasticsearchApplicationTest {
 
 测试方法成功运行，成功打印创建的索引信息
 
-![image-20240407193524341](19_Spring%20Boot%E6%95%B4%E5%90%88Elasticsearch.assets/image-20240407193524341.png)
+![image-20240407193524341](./assets/19_Spring%20Boot%E6%95%B4%E5%90%88Elasticsearch.assets/image-20240407193524341.png)
 
 查看elasticsearch-head，索引创建成功
 
-![image-20240407193541206](19_Spring%20Boot%E6%95%B4%E5%90%88Elasticsearch.assets/image-20240407193541206.png)
+![image-20240407193541206](./assets/19_Spring%20Boot%E6%95%B4%E5%90%88Elasticsearch.assets/image-20240407193541206.png)
 
 ## 4.4 调整测试类 - 查询索引
 
@@ -274,7 +274,7 @@ IndexResponse: {"_id":"1","_index":"test_index","_primary_term":1,"result":"crea
 
 查看elasticsearch-head，文档创建成功，能够成功查询到
 
-![image-20240407201557916](19_Spring%20Boot%E6%95%B4%E5%90%88Elasticsearch.assets/image-20240407201557916.png)
+![image-20240407201557916](./assets/19_Spring%20Boot%E6%95%B4%E5%90%88Elasticsearch.assets/image-20240407201557916.png)
 
 ## 6.2 查询文档
 
@@ -362,7 +362,7 @@ UpdateResponse: {"_id":"1","_index":"test_index","_primary_term":1,"result":"upd
 
 查看elasticsearch-head，更新成功
 
-![image-20240407205339958](19_Spring%20Boot%E6%95%B4%E5%90%88Elasticsearch.assets/image-20240407205339958.png)
+![image-20240407205339958](./assets/19_Spring%20Boot%E6%95%B4%E5%90%88Elasticsearch.assets/image-20240407205339958.png)
 
 ## 6.4 删除文档
 
@@ -397,7 +397,7 @@ DeleteResponse: {"_id":"1","_index":"test_index","_primary_term":1,"result":"del
 
 查看elasticsearch-head，删除成功
 
-![image-20240407205813360](19_Spring%20Boot%E6%95%B4%E5%90%88Elasticsearch.assets/image-20240407205813360.png)
+![image-20240407205813360](./assets/19_Spring%20Boot%E6%95%B4%E5%90%88Elasticsearch.assets/image-20240407205813360.png)
 
 ## 6.5 批量插入
 
@@ -435,7 +435,7 @@ public class ElasticsearchApplicationTest {
 
 测试结果，批量插入成功
 
-![image-20240407234403586](19_Spring%20Boot%E6%95%B4%E5%90%88Elasticsearch.assets/image-20240407234403586.png)
+![image-20240407234403586](./assets/19_Spring%20Boot%E6%95%B4%E5%90%88Elasticsearch.assets/image-20240407234403586.png)
 
 ## 6.6 分词查询
 
@@ -471,7 +471,7 @@ public class ElasticsearchApplicationTest {
 
 测试通过，查询成功
 
-![image-20240408010240354](19_Spring%20Boot%E6%95%B4%E5%90%88Elasticsearch.assets/image-20240408010240354.png)
+![image-20240408010240354](./assets/19_Spring%20Boot%E6%95%B4%E5%90%88Elasticsearch.assets/image-20240408010240354.png)
 
 ## 6.7 精确匹配
 
@@ -692,6 +692,10 @@ public class ElasticsearchApplicationTest {
 
 
 ---
+
+GitHub：[https://github.com/dkbnull/spring-boot-demo](https://github.com/dkbnull/spring-boot-demo)
+
+Gitee：[https://gitee.com/dkbnull/spring-boot-demo](https://gitee.com/dkbnull/spring-boot-demo)
 
 CSDN：[https://blog.csdn.net/dkbnull/article/details/137748709](https://blog.csdn.net/dkbnull/article/details/137748709)
 
