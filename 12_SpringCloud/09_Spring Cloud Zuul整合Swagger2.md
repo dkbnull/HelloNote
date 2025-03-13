@@ -115,7 +115,7 @@ public class GatewayController {
 
 依次启动spring-cloud-eureka、spring-boot-provider、spring-boot-provider-v2，浏览器访问http://127.0.0.1:8081/springbootprovider/swagger-ui.html、http://127.0.0.1:8083/springbootprovider/swagger-ui.html
 
-![1563890732798](09_Spring%20Cloud%20Zuul整合Swagger2.assets/1563890732798.png)
+![1563890732798](./assets/09_Spring%20Cloud%20Zuul整合Swagger2.assets/1563890732798.png)
 
 # 2. 新建Zuul服务
 
@@ -245,15 +245,15 @@ public class GlobalFilter extends ZuulFilter {
 
 依次启动spring-cloud-eureka、spring-boot-provider、spring-boot-provider-v2、spring-cloud-zuul，浏览器访问http://127.0.0.1:8091/springcloudzuul/swagger-ui.html
 
-![1563891037875](09_Spring%20Cloud%20Zuul整合Swagger2.assets/1563891037875.png)
+![1563891037875](./assets/09_Spring%20Cloud%20Zuul整合Swagger2.assets/1563891037875.png)
 
 
 
 ---
 
-GitHub：[https://github.com/dkbnull/SpringCloudDemo](https://github.com/dkbnull/SpringCloudDemo)
+GitHub：[https://github.com/dkbnull/spring-cloud-demo](https://github.com/dkbnull/spring-cloud-demo)
 
-Gitee：[https://gitee.com/dkbnull/SpringCloudDemo](https://gitee.com/dkbnull/SpringCloudDemo)
+Gitee：[https://gitee.com/dkbnull/spring-cloud-demo](https://gitee.com/dkbnull/spring-cloud-demo)
 
 CSDN：[https://blog.csdn.net/dkbnull/article/details/97042333](https://blog.csdn.net/dkbnull/article/details/97042333)
 
