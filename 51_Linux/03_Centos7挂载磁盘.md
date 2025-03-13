@@ -6,7 +6,7 @@
 fdisk -l
 ~~~
 
-![clipboard](03_Centos7挂载磁盘.assets/clipboard-1707966724105.png)
+![clipboard](./assets/03_Centos7挂载磁盘.assets/1707966724105.png)
 
 红框圈中的即是本次要挂载的磁盘，/dev/vdb 与 /dev/vda 相比，其没有下方的 /dev/vda1 等信息，代表 /dev/vdb 磁盘并没有进行过分区操作，是一个新加的硬盘。
 
@@ -20,17 +20,17 @@ fdisk -l
 fdisk /dev/vdb
 ~~~
 
-![clipboard](03_Centos7挂载磁盘.assets/clipboard-1707966913089.png)
+![clipboard](./assets/03_Centos7挂载磁盘.assets/1707966913089.png)
 
 显示Command (m for help): ，输入 **m** 可查看帮助
 
-![clipboard](03_Centos7挂载磁盘.assets/clipboard-1707966940219.png)
+![clipboard](./assets/03_Centos7挂载磁盘.assets/1707966940219.png)
 
 依次输入 **n，p，1**
 
 这里1表示分1个磁盘区
 
-![clipboard](03_Centos7挂载磁盘.assets/clipboard-1707966990294.png)
+![clipboard](./assets/03_Centos7挂载磁盘.assets/1707966990294.png)
 
 > 扩展：fdisk 语法
 >
@@ -75,15 +75,15 @@ fdisk /dev/vdb
 
 直接**按两次回车确认**
 
-![clipboard](03_Centos7挂载磁盘.assets/clipboard-1707967023735.png)
+![clipboard](./assets/03_Centos7挂载磁盘.assets/1707967023735.png)
 
 输入 **w** 保存
 
-![clipboard](03_Centos7挂载磁盘.assets/clipboard-1707967050569.png)
+![clipboard](./assets/03_Centos7挂载磁盘.assets/1707967050569.png)
 
 再次使用 **fdisk -l** 命令查看，发现 /dev/vdb 多了 /dev/vdb1 便是已经完成了分区工作，vdb1表示第一个分区
 
-![clipboard](03_Centos7挂载磁盘.assets/clipboard-1707967193312.png)
+![clipboard](./assets/03_Centos7挂载磁盘.assets/1707967193312.png)
 
 ## 2.2 格式化
 
@@ -93,7 +93,7 @@ fdisk /dev/vdb
 mkfs -t ext4 /dev/vdb1
 ~~~
 
-![clipboard](03_Centos7挂载磁盘.assets/clipboard-1707967277384.png)
+![clipboard](./assets/03_Centos7挂载磁盘.assets/1707967277384.png)
 
 # 3 挂载磁盘
 
@@ -115,7 +115,7 @@ mkdir /data
 mount /dev/vdb1 /home
 ~~~
 
-![clipboard](03_Centos7挂载磁盘.assets/clipboard-1707967355469.png)
+![clipboard](./assets/03_Centos7挂载磁盘.assets/1707967355469.png)
 
 查看磁盘信息，确认挂载是否成功
 
@@ -137,7 +137,7 @@ df -h
 blkid /dev/vdb1
 ~~~
 
-![clipboard](03_Centos7挂载磁盘.assets/clipboard-1707967444613.png)
+![clipboard](./assets/03_Centos7挂载磁盘.assets/1707967444613.png)
 
 ## 4.2 设置开机启动自动挂载
 
@@ -147,11 +147,11 @@ blkid /dev/vdb1
 vi /etc/fstab
 ~~~
 
-![clipboard](03_Centos7挂载磁盘.assets/clipboard-1707967489149.png)
+![clipboard](./assets/03_Centos7挂载磁盘.assets/1707967489149.png)
 
 在最后一行按格式添加内容
 
-![clipboard](03_Centos7挂载磁盘.assets/clipboard-1707967529702.png)
+![clipboard](./assets/03_Centos7挂载磁盘.assets/1707967529702.png)
 
 格式：
 
@@ -179,7 +179,7 @@ defaults	挂载参数
 init6 或 reboot
 ~~~
 
-![img](03_Centos7挂载磁盘.assets/clipboard.png)
+![img](./assets/03_Centos7挂载磁盘.assets/1707966724104.png)
 
 
 
