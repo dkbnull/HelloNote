@@ -1,6 +1,6 @@
 当使用虚拟机centos系统，ping百度时出现**Name or service not known**，可以考虑网关是否是开启的。
 
-![clipboard.png](02_Centos7虚拟机无法连接网络.assets/clip_image002.gif)
+![clipboard.png](./assets/02_Centos7虚拟机无法连接网络.assets/1707966724100.gif)
 
 我们进入网卡目录，修改网卡配置
 
@@ -12,7 +12,7 @@ ls
 
 查看ifcfg-ens具体值是多少
 
-![clipboard.png](02_Centos7虚拟机无法连接网络.assets/clip_image004.gif)
+![clipboard.png](./assets/02_Centos7虚拟机无法连接网络.assets/1707966724101.gif)
 
  修改网卡配置
 
@@ -22,11 +22,11 @@ vi ifcfg-ens33
 
 进入网卡配置后，查看ONBOOT值是yes还是no，no的话改为yes，然后保存退出，重启系统
 
-![clipboard.png](02_Centos7虚拟机无法连接网络.assets/clip_image006.gif)
+![clipboard.png](./assets/02_Centos7虚拟机无法连接网络.assets/1707966724102.gif)
 
  再ping百度，发现网络正常了。
 
-![clipboard.png](02_Centos7虚拟机无法连接网络.assets/clip_image008.gif)
+![clipboard.png](./assets/02_Centos7虚拟机无法连接网络.assets/1707966724103.gif)
 
  
 
