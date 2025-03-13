@@ -8,7 +8,7 @@
 
 **1.1 下载对应系统 JDK安装包**
 
-![image-20210126111420894](01_Linux服务器部署Spring Boot服务.assets/image-20210126111420894.png)
+![image-20210126111420894](./assets/01_Linux服务器部署Spring Boot服务.assets/1611630853001.png)
 
 **1.2 创建 JDK安装目录**
 
@@ -20,7 +20,7 @@ cd java
 
 **1.3 将 JDK安装包上传到服务器**
 
-![image-20210126111838687](01_Linux服务器部署Spring Boot服务.assets/image-20210126111838687.png)
+![image-20210126111838687](./assets/01_Linux服务器部署Spring Boot服务.assets/1611630853002.png)
 
 **1.4 解压 JDK安装包**
 
@@ -28,7 +28,7 @@ cd java
 tar -zxvf jdk-8u281-linux-x64.tar.gz
 ~~~
 
-![image-20210126112129869](01_Linux服务器部署Spring Boot服务.assets/image-20210126112129869.png)
+![image-20210126112129869](./assets/01_Linux服务器部署Spring Boot服务.assets/1611630853003.png)
 
 **1.5 配置环境变量**
 
@@ -45,7 +45,7 @@ export JAVA_HOME
 export PATH
 ~~~
 
-![image-20210126112426659](01_Linux服务器部署Spring Boot服务.assets/image-20210126112426659.png)
+![image-20210126112426659](./assets/01_Linux服务器部署Spring Boot服务.assets/1611630853004.png)
 
 **按ESC退出编辑模式**
 
@@ -62,7 +62,7 @@ source /etc/profile
 java -version
 ~~~
 
-![image-20210126134541717](01_Linux服务器部署Spring Boot服务.assets/image-20210126134541717.png)
+![image-20210126134541717](./assets/01_Linux服务器部署Spring Boot服务.assets/1611630853007.png)
 
 到此，JDK安装完成，环境变量已生效。
 
@@ -85,25 +85,25 @@ rpm -e --nodeps mysql
 wget http://repo.mysql.com/mysql57-community-release-el5-7.noarch.rpm
 ~~~
 
-![image-20210201175404268](01_Linux服务器部署Spring Boot服务.assets/image-20210201175404268.png)
+![image-20210201175404268](./assets/01_Linux服务器部署Spring Boot服务.assets/1611630853068.png)
 
 ~~~shell
 rpm -ivh mysql57-community-release-el5-7.noarch.rpm
 ~~~
 
-![image-20210201175531230](01_Linux服务器部署Spring Boot服务.assets/image-20210201175531230.png)
+![image-20210201175531230](./assets/01_Linux服务器部署Spring Boot服务.assets/1611630853130.png)
 
 ~~~shell
 yum update
 ~~~
 
-![image-20210201175605047](01_Linux服务器部署Spring Boot服务.assets/image-20210201175605047.png)
+![image-20210201175605047](./assets/01_Linux服务器部署Spring Boot服务.assets/1611630853147.png)
 
 ~~~shell
 yum install mysql-server
 ~~~
 
-![image-20210201175634106](01_Linux服务器部署Spring Boot服务.assets/image-20210201175634106.png)
+![image-20210201175634106](./assets/01_Linux服务器部署Spring Boot服务.assets/1611630853156.png)
 
 **2.4 设置权限**
 
@@ -137,7 +137,7 @@ systemctl status mysqld
 
 启动成功
 
-![image-20210201175127724](01_Linux服务器部署Spring Boot服务.assets/image-20210201175127724.png)
+![image-20210201175127724](./assets/01_Linux服务器部署Spring Boot服务.assets/1611630853024.png)
 
 **2.9 查看版本信息**
 
@@ -145,7 +145,7 @@ systemctl status mysqld
 mysqladmin --version
 ~~~
 
-![image-20210201175726133](01_Linux服务器部署Spring Boot服务.assets/image-20210201175726133.png)
+![image-20210201175726133](./assets/01_Linux服务器部署Spring Boot服务.assets/1611630853233.png)
 
 **2.10 查看初始化密码**
 
@@ -153,11 +153,11 @@ mysqladmin --version
 cat /var/log/mysqld.log | grep password
 ~~~
 
-![image-20210202090223629](01_Linux服务器部署Spring Boot服务.assets/image-20210202090223629.png)
+![image-20210202090223629](./assets/01_Linux服务器部署Spring Boot服务.assets/1611630853269.png)
 
 **2.11 连接 MySQL服务器**
 
-![image-20210202090359320](01_Linux服务器部署Spring Boot服务.assets/image-20210202090359320.png)
+![image-20210202090359320](./assets/01_Linux服务器部署Spring Boot服务.assets/1611630853320.png)
 
 **2.12 修改密码**
 
@@ -178,7 +178,7 @@ source /usr/mysql/test.sql;
 
 导入成功
 
-![image-20210202092432424](01_Linux服务器部署Spring Boot服务.assets/image-20210202092432424.png)
+![image-20210202092432424](./assets/01_Linux服务器部署Spring Boot服务.assets/1611630853424.png)
 
 ## 3. 部署Spring Boot服务
 
