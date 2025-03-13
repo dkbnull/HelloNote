@@ -15,7 +15,7 @@
 
 ## 1.1 新建Eureka服务注册中心
 
-![1555080362878](02_Spring%20Cloud%20服务注册与发现%20Eureka.assets/1555080362878.png)
+![1555080362878](./assets/02_Spring%20Cloud%20服务注册与发现%20Eureka.assets/1555080362878.png)
 
 ## 1.2 引入依赖
 
@@ -97,7 +97,7 @@ public class SpringCloudEurekaApplication {
 
 启动Eureka服务，浏览器访问 http://127.0.0.1:8090/springcloudeureka/ 可以打开Eureka界面，这里因为我们未注册服务，所以Application是空的。
 
-![1555082087410](02_Spring%20Cloud%20服务注册与发现%20Eureka.assets/1555082087410.png)
+![1555082087410](./assets/02_Spring%20Cloud%20服务注册与发现%20Eureka.assets/1555082087410.png)
 
 # 2. 新建服务提供者
 
@@ -145,7 +145,7 @@ public class SpringBootProviderApplication {
 
 我们先启动Eureka服务，再启动spring-boot-provider，然后再次浏览器访问 http://127.0.0.1:8090/springcloudeureka/ ，服务注册成功。
 
-![1555084777547](02_Spring%20Cloud%20服务注册与发现%20Eureka.assets/1555084777547.png)
+![1555084777547](./assets/02_Spring%20Cloud%20服务注册与发现%20Eureka.assets/1555084777547.png)
 
 # 3. 再新建一个服务提供者
 
@@ -197,7 +197,7 @@ public class GatewayController {
 
  启动新建的服务提供者，然后再次浏览器访问 http://127.0.0.1:8090/springcloudeureka/ ，如下所示，有两个spring-boot-provider服务提供者，端口分别是8081,8083
 
-![1555085750848](02_Spring%20Cloud%20服务注册与发现%20Eureka.assets/1555085750848.png)
+![1555085750848](./assets/02_Spring%20Cloud%20服务注册与发现%20Eureka.assets/1555085750848.png)
 
 # 4. 新建服务消费者
 
@@ -284,17 +284,17 @@ public class GatewayController {
 
 不断刷新几次，可以看到，接口有时会返回**hello world,this is spring-boot-provider**，有时会返回**hello world,this is spring-boot-provider-v2**。这是因为我们使用**@LoadBalanced**注解开启了负载均衡。
 
-![1555090117969](02_Spring%20Cloud%20服务注册与发现%20Eureka.assets/1555090117969.png)
+![1555090117969](./assets/02_Spring%20Cloud%20服务注册与发现%20Eureka.assets/1555090117969.png)
 
-![1555090136926](02_Spring%20Cloud%20服务注册与发现%20Eureka.assets/1555090136926.png)
+![1555090136926](./assets/02_Spring%20Cloud%20服务注册与发现%20Eureka.assets/1555090136926.png)
 
 
 
 ---
 
-GitHub：[https://github.com/dkbnull/SpringCloudDemo](https://github.com/dkbnull/SpringCloudDemo)
+GitHub：[https://github.com/dkbnull/spring-cloud-demo](https://github.com/dkbnull/spring-cloud-demo)
 
-Gitee：[https://gitee.com/dkbnull/SpringCloudDemo](https://gitee.com/dkbnull/SpringCloudDemo)
+Gitee：[https://gitee.com/dkbnull/spring-cloud-demo](https://gitee.com/dkbnull/spring-cloud-demo)
 
 CSDN：[https://blog.csdn.net/dkbnull/article/details/89268194](https://blog.csdn.net/dkbnull/article/details/89268194)
 
