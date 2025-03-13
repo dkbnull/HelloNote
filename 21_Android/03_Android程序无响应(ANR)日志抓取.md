@@ -4,7 +4,7 @@
 
 一个流畅的合理的应用程序中不能出现ANR，ANR会导致用户体验变差。默认情况下，在Android中Activity的最长执行时间是5秒，BroadcastReceiver的最长执行时间则是10秒。
 
-![微信截图_20200329144721](03_Android程序无响应(ANR)日志抓取.assets/微信截图_20200329144721.png)
+![1585466589069](./assets/03_Android程序无响应(ANR)日志抓取.assets/1585466589069.png)
 
 ## 2. 为什么会出现ANR
 
@@ -30,7 +30,7 @@
 
 在导出之前，我们可以先查看下设备ANR日志是否存在
 
-![1585466042439](03_Android程序无响应(ANR)日志抓取.assets/1585466042439.png)
+![1585466042439](./assets/03_Android程序无响应(ANR)日志抓取.assets/1585466042439.png)
 
 **使用如下命令来将ANR日志导出**
 
@@ -40,19 +40,19 @@ adb pull data/anr/traces.txt 导出后的路径
 
 例如：
 
-![1585466215165](03_Android程序无响应(ANR)日志抓取.assets/1585466215165.png)
+![1585466215165](./assets/03_Android程序无响应(ANR)日志抓取.assets/1585466215165.png)
 
 然后我们打开traces.txt进行分析
 
-![1585466589068](03_Android程序无响应(ANR)日志抓取.assets/1585466589068.png)
+![1585466589068](./assets/03_Android程序无响应(ANR)日志抓取.assets/1585466589068.png)
 
 
 
 ---
 
-GitHub：[https://github.com/dkbnull/AndroidDemo](https://github.com/dkbnull/AndroidDemo)
+GitHub：[https://github.com/dkbnull/android-demo](https://github.com/dkbnull/android-demo)
 
-Gitee：[https://gitee.com/dkbnull/AndroidDemo](https://gitee.com/dkbnull/AndroidDemo)
+Gitee：[https://gitee.com/dkbnull/android-demo](https://gitee.com/dkbnull/android-demo)
 
 CSDN：[https://blog.csdn.net/dkbnull/article/details/105179536](https://blog.csdn.net/dkbnull/article/details/105179536)
 
