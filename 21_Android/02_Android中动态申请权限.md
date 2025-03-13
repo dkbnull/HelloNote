@@ -100,9 +100,9 @@ AndroidManifest.xml文件中加入对应权限的静态申请，注意格式，�
 
 ---
 
-GitHub：[https://github.com/dkbnull/AndroidDemo](https://github.com/dkbnull/AndroidDemo)
+GitHub：[https://github.com/dkbnull/android-demo](https://github.com/dkbnull/android-demo)
 
-Gitee：[https://gitee.com/dkbnull/AndroidDemo](https://gitee.com/dkbnull/AndroidDemo)
+Gitee：[https://gitee.com/dkbnull/android-demo](https://gitee.com/dkbnull/android-demo)
 
 CSDN：[https://blog.csdn.net/dkbnull/article/details/104092233](https://blog.csdn.net/dkbnull/article/details/104092233)
 
