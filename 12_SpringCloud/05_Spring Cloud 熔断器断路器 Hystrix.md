@@ -31,7 +31,7 @@ Hystrix提供的断路器具有自我反馈和自我恢复的功能，Hystrix会
 
 ## 2.1 新建服务消费者
 
-![1556263855029](05_Spring%20Cloud%20熔断器断路器%20Hystrix.assets/1556263855029.png)
+![1556263855029](./assets/05_Spring%20Cloud%20熔断器断路器%20Hystrix.assets/1556263855029.png)
 
 ## 2.2 引入依赖
 
@@ -165,11 +165,11 @@ public class GatewayController {
 
 依次启动spring-cloud-eureka，spring-boot-provider，spring-boot-provider-v2，spring-boot-consumer-hystrix。然后打开Postman，配置如下，不断点击Send按钮，可以看到返回信息正常，且两组返回信息交替出现。
 
-![1556267786005](05_Spring%20Cloud%20熔断器断路器%20Hystrix.assets/1556267786005.png)
+![1556267786005](./assets/05_Spring%20Cloud%20熔断器断路器%20Hystrix.assets/1556267786005.png)
 
 然后我们关闭spring-boot-provider，spring-boot-provider-v2服务，再在Postman中测试，可以看到返回正常，返回信息如下，正是我们刚才usersFallback()方法中的处理。
 
-![1556267913399](05_Spring%20Cloud%20熔断器断路器%20Hystrix.assets/1556267913399.png)
+![1556267913399](./assets/05_Spring%20Cloud%20熔断器断路器%20Hystrix.assets/1556267913399.png)
 
 这里如果我们没有使用Hystrix的话，正常应该是会等待超时，然后返回超时信息。现在启用Hystrix，当spring-boot-provider和spring-boot-provider-v2服务不可用时，spring-boot-consumer-hystrix调用spring-boot-provider的接口不通，会执行快速失败，直接返回usersFallback()方法的处理结果，而不是等待超时，防止了线程阻塞。
 
@@ -193,7 +193,7 @@ public class GatewayController {
 
 然后我们再依次启动spring-cloud-eureka，spring-boot-provider，spring-boot-provider-v2，spring-boot-consumer-hystrix。然后继续使用Postman测试，发现依旧返回熔断方法中参数。
 
-![1556283792704](05_Spring%20Cloud%20熔断器断路器%20Hystrix.assets/1556283792704.png)
+![1556283792704](./assets/05_Spring%20Cloud%20熔断器断路器%20Hystrix.assets/1556283792704.png)
 
 这是因为Hystrix默认的超时时间是1秒，也就是服务消费者在等待服务提供者返回信息时，如果超过1秒没有得到返回信息的话，就认为服务提供者故障，直接执行本地设置的降级策略，也就是usersFallback()方法。
 
@@ -215,7 +215,7 @@ hystrix:
 
 然后我们重启spring-boot-consumer-hystrix，再次使用Postman测试，返回信息正常。
 
-![1556283960427](05_Spring%20Cloud%20熔断器断路器%20Hystrix.assets/1556283960427.png)
+![1556283960427](./assets/05_Spring%20Cloud%20熔断器断路器%20Hystrix.assets/1556283960427.png)
 
 # 3. Feign中使用断路器
 
@@ -227,7 +227,7 @@ feign.hystrix.enabled=true
 
 ## 3.1 新建Feign服务消费者
 
-![1556285821616](05_Spring%20Cloud%20熔断器断路器%20Hystrix.assets/1556285821616.png)
+![1556285821616](./assets/05_Spring%20Cloud%20熔断器断路器%20Hystrix.assets/1556285821616.png)
 
 ## 3.2 引入依赖
 
@@ -390,7 +390,7 @@ public class GatewayController {
 
 然后我们关闭spring-boot-provider，spring-boot-provider-v2服务，再在Postman中测试，可以看到返回正常，返回信息如下，正是我们在GatewayFallback类users()方法中的处理。
 
-![1556287343104](05_Spring%20Cloud%20熔断器断路器%20Hystrix.assets/1556287343104.png)
+![1556287343104](./assets/05_Spring%20Cloud%20熔断器断路器%20Hystrix.assets/1556287343104.png)
 
 ## 3.9 修改Hystrix默认超时时间
 
@@ -485,9 +485,9 @@ public class GatewayFallbackFactory implements FallbackFactory<GatewayFeignClien
 
 ---
 
-GitHub：[https://github.com/dkbnull/SpringCloudDemo](https://github.com/dkbnull/SpringCloudDemo)
+GitHub：[https://github.com/dkbnull/spring-cloud-demo](https://github.com/dkbnull/spring-cloud-demo)
 
-Gitee：[https://gitee.com/dkbnull/SpringCloudDemo](https://gitee.com/dkbnull/SpringCloudDemo)
+Gitee：[https://gitee.com/dkbnull/spring-cloud-demo](https://gitee.com/dkbnull/spring-cloud-demo)
 
 CSDN：[https://blog.csdn.net/dkbnull/article/details/89578323](https://blog.csdn.net/dkbnull/article/details/89578323)
 
