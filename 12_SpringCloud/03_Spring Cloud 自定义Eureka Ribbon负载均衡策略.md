@@ -23,7 +23,7 @@ Spring Cloud Ribbon 是一个基于HTTP和TCP的客户端负载均衡工具，�
 
 Ribbon的核心组件是IRule，IRule是所有负载均衡策略的父接口，其子类有： 
 
-![1556118245979](03_Spring%20Cloud%20自定义Eureka%20Ribbon负载均衡策略.assets/1556118245979.png)
+![1556118245979](./assets/03_Spring%20Cloud%20自定义Eureka%20Ribbon负载均衡策略.assets/1556118245979.png)
 
 每一个子类就是一种负载均衡策略
 
@@ -158,15 +158,15 @@ public class SpringBootConsumerApplication {
 
 我们依次启动spring-cloud-eureka，spring-boot-provider，spring-boot-provider-v2，spring-boot-consumer。然后浏览器访问http://127.0.0.1:8082/springbootconsumer/gateway，我们发现，无论怎么刷新，返回信息都是同一个。
 
-![1556121903438](03_Spring%20Cloud%20自定义Eureka%20Ribbon负载均衡策略.assets/1556121903438.png)
+![1556121903438](./assets/03_Spring%20Cloud%20自定义Eureka%20Ribbon负载均衡策略.assets/1556121903438.png)
 
 我们在GlobalRule中打上断点，然后再刷新浏览器http://127.0.0.1:8082/springbootconsumer/gateway访问页面，可以看到每次刷新都能进到断点这里。
 
-![1556122979054](03_Spring%20Cloud%20自定义Eureka%20Ribbon负载均衡策略.assets/1556122979054.png)
+![1556122979054](./assets/03_Spring%20Cloud%20自定义Eureka%20Ribbon负载均衡策略.assets/1556122979054.png)
 
 查看debug数据，servers.get(0)返回的是8081服务，我们浏览器接收到的返回参数也是8081服务的返回参数。
 
-![1556123114678](03_Spring%20Cloud%20自定义Eureka%20Ribbon负载均衡策略.assets/1556123114678.png)
+![1556123114678](./assets/03_Spring%20Cloud%20自定义Eureka%20Ribbon负载均衡策略.assets/1556123114678.png)
 
 ### 2.1.5 ComponentScan注解自定义扫描类
 
@@ -291,9 +291,9 @@ spring-boot-provider:
 
 ---
 
-GitHub：[https://github.com/dkbnull/SpringCloudDemo](https://github.com/dkbnull/SpringCloudDemo)
+GitHub：[https://github.com/dkbnull/spring-cloud-demo](https://github.com/dkbnull/spring-cloud-demo)
 
-Gitee：[https://gitee.com/dkbnull/SpringCloudDemo](https://gitee.com/dkbnull/SpringCloudDemo)
+Gitee：[https://gitee.com/dkbnull/spring-cloud-demo](https://gitee.com/dkbnull/spring-cloud-demo)
 
 CSDN：[https://blog.csdn.net/dkbnull/article/details/89506462](https://blog.csdn.net/dkbnull/article/details/89506462)
 
