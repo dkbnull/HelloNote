@@ -18,9 +18,9 @@
 
 # Android
 
-**GitHub：[https://github.com/dkbnull/AndroidDemo](https://github.com/dkbnull/AndroidDemo)**
+**GitHub：[https://github.com/dkbnull/android-demo](https://github.com/dkbnull/android-demo)**
 
-**Gitee：[https://gitee.com/dkbnull/AndroidDemo](https://gitee.com/dkbnull/AndroidDemo)**
+**Gitee：[https://gitee.com/dkbnull/android-demo](https://gitee.com/dkbnull/android-demo)**
 
 **微信：[Android 从零单排](https://mp.weixin.qq.com/mp/appmsgalbum?__biz=MzAxOTkxNTgzMA==&action=getalbum&album_id=1340131576725864448#wechat_redirect)**
 
