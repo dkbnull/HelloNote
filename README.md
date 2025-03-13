@@ -87,9 +87,9 @@
 
 # Spring Cloud
 
-**GitHub：[https://github.com/dkbnull/SpringCloudDemo](https://github.com/dkbnull/SpringCloudDemo)**
+**GitHub：[https://github.com/dkbnull/spring-cloud-demo](https://github.com/dkbnull/spring-cloud-demo)**
 
-**Gitee：[https://gitee.com/dkbnull/SpringCloudDemo](https://gitee.com/dkbnull/SpringCloudDemo)**
+**Gitee：[https://gitee.com/dkbnull/spring-cloud-demo](https://gitee.com/dkbnull/spring-cloud-demo)**
 
 **CSDN：[Spring Cloud 从零单排](https://blog.csdn.net/dkbnull/category_9287932.html)**
 
