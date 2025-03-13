@@ -22,7 +22,7 @@ Spring Cloud Config是一个解决分布式系统的配置管理方案，为分�
 
 新建Git仓库，用于存放配置文件。
 
-这里我们直接在[SpringCloudDemo](https://github.com/dkbnull/SpringCloudDemo)仓库中新建**spring-cloud-config-repo**文件夹，然后新建三个配置文件
+这里我们直接在[SpringCloudDemo](https://github.com/dkbnull/spring-cloud-demo)仓库中新建**spring-cloud-config-repo**文件夹，然后新建三个配置文件
 
 spring-cloud-config-client-pro.yml
 
@@ -98,7 +98,7 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/dkbnull/SpringCloudDemo
+          uri: https://github.com/dkbnull/spring-cloud-demo
           search-paths: spring-cloud-config-repo
           username: ""
           password: ""
@@ -126,7 +126,7 @@ spring:
 	"state": null,
 	"propertySources": [
 		{
-			"name": "https://github.com/dkbnull/SpringCloudDemo/spring-cloud-config-repo/spring-cloud-config-client-pro.yml",
+			"name": "https://github.com/dkbnull/spring-cloud-demo/spring-cloud-config-repo/spring-cloud-config-client-pro.yml",
 			"source": {
 				"version": 1.0,
 				"profile": "pro"
@@ -149,7 +149,7 @@ spring:
 	"state": null,
 	"propertySources": [
 		{
-			"name": "https://github.com/dkbnull/SpringCloudDemo/spring-cloud-config-repo/spring-cloud-config-client-dev.yml",
+			"name": "https://github.com/dkbnull/spring-cloud-demo/spring-cloud-config-repo/spring-cloud-config-client-dev.yml",
 			"source": {
 				"version": 1.0,
 				"profile": "dev"
@@ -286,9 +286,9 @@ spring-cloud-config-client成功通过spring-cloud-config-server从Git仓库中�
 
 ---
 
-GitHub：[https://github.com/dkbnull/SpringCloudDemo](https://github.com/dkbnull/SpringCloudDemo)
+GitHub：[https://github.com/dkbnull/spring-cloud-demo](https://github.com/dkbnull/spring-cloud-demo)
 
-Gitee：[https://gitee.com/dkbnull/SpringCloudDemo](https://gitee.com/dkbnull/SpringCloudDemo)
+Gitee：[https://gitee.com/dkbnull/spring-cloud-demo](https://gitee.com/dkbnull/spring-cloud-demo)
 
 CSDN：[https://blog.csdn.net/dkbnull/article/details/89934484](https://blog.csdn.net/dkbnull/article/details/89934484)
 
