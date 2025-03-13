@@ -127,35 +127,35 @@ spring:
 
 PostMan多请求几次
 
-![1561648809931](08_Spring%20Cloud%20全链路跟踪%20Zipkin.assets/1561648809931.png)
+![1561648809931](./assets/08_Spring%20Cloud%20全链路跟踪%20Zipkin.assets/1561648809931.png)
 
 浏览器访问<http://localhost:8092/zipkin/>，界面如下
 
-![1561649118176](08_Spring%20Cloud%20全链路跟踪%20Zipkin.assets/1561649118176.png)
+![1561649118176](./assets/08_Spring%20Cloud%20全链路跟踪%20Zipkin.assets/1561649118176.png)
 
 点击**Find Traces**按钮
 
-![1561649394977](08_Spring%20Cloud%20全链路跟踪%20Zipkin.assets/1561649394977.png)
+![1561649394977](./assets/08_Spring%20Cloud%20全链路跟踪%20Zipkin.assets/1561649394977.png)
 
 点击某个调用链路之后可以看到该链路的调用详情
 
-![1561649808773](08_Spring%20Cloud%20全链路跟踪%20Zipkin.assets/1561649808773.png)
+![1561649808773](./assets/08_Spring%20Cloud%20全链路跟踪%20Zipkin.assets/1561649808773.png)
 
 点击某个服务可以查看该服务的调用详情
 
-![1561649982832](08_Spring%20Cloud%20全链路跟踪%20Zipkin.assets/1561649982832.png)
+![1561649982832](./assets/08_Spring%20Cloud%20全链路跟踪%20Zipkin.assets/1561649982832.png)
 
 菜单栏选择Dependencies还可以查看各服务之间的关系
 
-![1561649884300](08_Spring%20Cloud%20全链路跟踪%20Zipkin.assets/1561649884300.png)
+![1561649884300](./assets/08_Spring%20Cloud%20全链路跟踪%20Zipkin.assets/1561649884300.png)
 
 
 
 ---
 
-GitHub：[https://github.com/dkbnull/SpringCloudDemo](https://github.com/dkbnull/SpringCloudDemo)
+GitHub：[https://github.com/dkbnull/spring-cloud-demo](https://github.com/dkbnull/spring-cloud-demo)
 
-Gitee：[https://gitee.com/dkbnull/SpringCloudDemo](https://gitee.com/dkbnull/SpringCloudDemo)
+Gitee：[https://gitee.com/dkbnull/spring-cloud-demo](https://gitee.com/dkbnull/spring-cloud-demo)
 
 CSDN：[https://blog.csdn.net/dkbnull/article/details/93928005](https://blog.csdn.net/dkbnull/article/details/93928005)
 
