@@ -26,7 +26,7 @@ mysql 是镜像名字
 docker load < /usr/local/docker/mysql.tar
 ~~~
 
-![clipboard](04_Docker打包离线镜像到本地，上传解压到服务器.assets/clipboard-1707968343167.png)
+![clipboard](./assets/04_Docker打包离线镜像到本地，上传解压到服务器.assets/1707968343167.png)
 
 # 5 查看加载的镜像
 
@@ -36,7 +36,7 @@ docker image ls
 docker images 
 ~~~
 
-![clipboard](04_Docker打包离线镜像到本地，上传解压到服务器.assets/clipboard-1707968404360.png)
+![clipboard](./assets/04_Docker打包离线镜像到本地，上传解压到服务器.assets/1707968404360.png)
 
 # 6 创建容器
 
@@ -46,7 +46,7 @@ docker run -itd --name mysql -p 3306:3306 -e MYSQL_ROOT_PASSWORD=root mysql
 
 启动成功，docker ps也能查到，成功
 
-![img](04_Docker打包离线镜像到本地，上传解压到服务器.assets/clipboard.png)
+![img](./assets/04_Docker打包离线镜像到本地，上传解压到服务器.assets/1707968343165.png)
 
 
 
