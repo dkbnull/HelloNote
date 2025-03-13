@@ -6,7 +6,7 @@
 
 话不多说，先看效果：
 
-.\视频\SVID_20200126_172655_1.mp4
+./assets/01_Android中使用okhttp实现程序自动更新.assets/SVID_20200126_172655_1.mp4
 
 <br>
 
@@ -216,9 +216,9 @@ res\xml文件夹下新建file_paths.xml，path就是下载的apk存放目录
 
 ---
 
-GitHub：[https://github.com/dkbnull/AndroidDemo](https://github.com/dkbnull/AndroidDemo)
+GitHub：[https://github.com/dkbnull/android-demo](https://github.com/dkbnull/android-demo)
 
-Gitee：[https://gitee.com/dkbnull/AndroidDemo](https://gitee.com/dkbnull/AndroidDemo)
+Gitee：[https://gitee.com/dkbnull/android-demo](https://gitee.com/dkbnull/android-demo)
 
 CSDN：[https://blog.csdn.net/dkbnull/article/details/104088585](https://blog.csdn.net/dkbnull/article/details/104088585)
 
