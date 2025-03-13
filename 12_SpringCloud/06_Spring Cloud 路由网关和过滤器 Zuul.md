@@ -270,9 +270,9 @@ zuul:
 
 ---
 
-GitHub：[https://github.com/dkbnull/SpringCloudDemo](https://github.com/dkbnull/SpringCloudDemo)
+GitHub：[https://github.com/dkbnull/spring-cloud-demo](https://github.com/dkbnull/spring-cloud-demo)
 
-Gitee：[https://gitee.com/dkbnull/SpringCloudDemo](https://gitee.com/dkbnull/SpringCloudDemo)
+Gitee：[https://gitee.com/dkbnull/spring-cloud-demo](https://gitee.com/dkbnull/spring-cloud-demo)
 
 CSDN：[https://blog.csdn.net/dkbnull/article/details/89736893](https://blog.csdn.net/dkbnull/article/details/89736893)
 
